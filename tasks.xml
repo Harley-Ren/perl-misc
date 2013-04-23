@@ -1,0 +1,370 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rtasks>
+    <server_groups>
+        <server_group name="testservers">
+            <server name="test124" ip="10.10.11.24"  loginid="root" passwd="21vianet"/>
+            <server name="test197" ip="10.10.11.197"  loginid="root" passwd="21vianet"/>
+        </server_group>
+        
+        <server_group name="fds_servers">
+            <server name="哈尔滨_siteroot" ip="113.6.255.148" loginid="root" passwd="21vianet"/>
+            <server name="遂宁_siteroot" ip="118.122.176.225" loginid="root" passwd="21vianet"/>
+        </server_group>
+        
+        <server_group name="servers-in-use">
+            <server name="沈阳2_siteroot" ip="218.60.36.8" loginid="root" passwd="&amp;ljaef&amp;34gh"/>
+            <server name="畅游-青岛" ip="119.167.246.138" loginid="root" passwd="DVAspFlH"/>
+            <server name="畅游-哈尔滨" ip="113.6.255.80" loginid="root" passwd="DVAspFlH"/>
+            <server name="畅游-哈尔滨2" ip="113.6.255.115" loginid="root" passwd="DVAspFlH"/>
+            <server name="畅游-湛江" ip="121.10.127.180" loginid="root" passwd="DVAspFlH"/>
+            <server name="畅游-金华" ip="60.191.252.190" loginid="root" passwd="DVAspFlH"/>
+            <server name="畅游-遂宁" ip="118.122.177.183" loginid="root" passwd="DVAspFlH"/>
+            <server name="畅游-汕头" ip="121.14.225.172" loginid="root" passwd="DVAspFlH"/>
+            <server name="lenovo-download-119.167.247.152" ip="119.167.247.152" loginid="" passwd=""/>
+            <server name="游戏事业部-青岛TS1" ip="119.167.246.73" loginid="root" passwd="DVAspFlH"/>
+            <server name="青岛TS2" ip="119.167.246.166" loginid="root" passwd="DVAspFlH"/>
+            <server name="汕头TS1" ip="121.14.225.158" loginid="root" passwd="DVAspFlH"/>
+            <server name="湛江TS2" ip="121.10.127.113" loginid="root" passwd="DVAspFlH"/>
+            <server name="遂宁TS1" ip="118.122.176.224" loginid="root" passwd="DVAspFlH"/>
+            <server name="金华TS1" ip="60.191.252.141" loginid="root" passwd="DVAspFlH"/>
+            <server name="青岛TS1" ip="119.167.246.62" loginid="root" passwd="DVAspFlH"/>
+            <server name="哈尔滨TS1" ip="113.6.255.72" loginid="root" passwd="DVAspFlH"/>
+            <server name="遂宁TS2" ip="118.122.176.193" loginid="root" passwd="DVAspFlH"/>
+            <server name="金华TS2" ip="60.191.252.140" loginid="root" passwd="DVAspFlH"/>
+            <server name="联想研究院青岛测试" ip="119.167.247.74" loginid="root" passwd="DVAspFlH"/>
+            <server name="联想研究院[119.167.246.19]" ip="119.167.246.19" loginid="root" passwd="&amp;ljaef&amp;34gh"/>
+            <server name="联想研究院[119.167.246.120]" ip="119.167.246.120" loginid="root" passwd="&amp;ljaef&amp;34gh"/>
+            <server name="联想研究院[119.167.246.153]" ip="119.167.246.153" loginid="root" passwd="&amp;ljaef&amp;34gh"/>
+            <server name="联想研究院[113.6.255.77]" ip="113.6.255.77" loginid="root" passwd="&amp;ljaef&amp;34gh"/>
+            <server name="联想研究院[113.6.255.121]" ip="113.6.255.121" loginid="root" passwd="&amp;ljaef&amp;34gh"/>
+            <server name="联想研究院[113.6.255.138]" ip="113.6.255.138" loginid="root" passwd="&amp;ljaef&amp;34gh"/>
+            <server name="联想研究院[121.14.225.107]" ip="121.14.225.107" loginid="root" passwd="&amp;ljaef&amp;34gh"/>
+            <server name="联想研究院[121.14.225.173]" ip="121.14.225.173" loginid="root" passwd="&amp;ljaef&amp;34gh"/>
+            <server name="联想研究院[121.14.225.190]" ip="121.14.225.190" loginid="root" passwd="&amp;ljaef&amp;34gh"/>
+            <server name="联想研究院[121.10.127.141]" ip="121.10.127.141" loginid="root" passwd="&amp;ljaef&amp;34gh"/>
+            <server name="联想研究院[121.10.127.114]" ip="121.10.127.114" loginid="root" passwd="&amp;ljaef&amp;34gh"/>
+            <server name="联想研究院[59.173.16.180]" ip="59.173.16.180" loginid="root" passwd="&amp;ljaef&amp;34gh"/>
+            <server name="联想研究院[59.173.16.201]" ip="59.173.16.201" loginid="root" passwd="&amp;ljaef&amp;34gh"/>
+            <server name="联想研究院[59.173.16.246]" ip="59.173.16.246" loginid="root" passwd="&amp;ljaef&amp;34gh"/>
+            <server name="[联想研究院]116.114.22.88" ip="116.114.22.88" loginid="root" passwd="&amp;ljaef&amp;34gh"/>
+            <server name="联想研究院[116.114.22.83]" ip="116.114.22.83" loginid="root" passwd="&amp;ljaef&amp;34gh"/>
+            <server name="联想研究院[116.114.22.84]" ip="116.114.22.84" loginid="root" passwd="&amp;ljaef&amp;34gh"/>
+            <server name="联想研究院[118.122.176.242]" ip="118.122.176.242" loginid="root" passwd="&amp;ljaef&amp;34gh"/>
+            <server name="联想研究院[118.122.176.243]" ip="118.122.176.243" loginid="root" passwd="&amp;ljaef&amp;34gh"/>
+            <server name="联想研究院[118.122.176.244]" ip="118.122.176.244" loginid="root" passwd="&amp;ljaef&amp;34gh"/>
+            <server name="联想研究院[60.191.252.159]" ip="60.191.252.159" loginid="root" passwd="&amp;ljaef&amp;34gh"/>
+            <server name="联想研究院[60.191.252.160]" ip="60.191.252.160" loginid="root" passwd="&amp;ljaef&amp;34gh"/>
+            <server name="联想研究院[60.191.252.161]" ip="60.191.252.161" loginid="root" passwd="&amp;ljaef&amp;34gh"/>
+            <server name="青岛TS1" ip="119.167.246.74" loginid="root" passwd="DVAspFlH"/>
+            <server name="青岛TS1" ip="119.167.246.75" loginid="root" passwd="DVAspFlH"/>
+            <server name="青岛TS2" ip="119.167.246.117" loginid="root" passwd="DVAspFlH"/>
+            <server name="青岛TS2" ip="119.167.246.122" loginid="root" passwd="DVAspFlH"/>
+            <server name="青岛TS2" ip="119.167.246.164" loginid="root" passwd="DVAspFlH"/>
+            <server name="青岛TS2" ip="119.167.246.134" loginid="root" passwd="DVAspFlH"/>
+            <server name="哈尔滨TS1" ip="113.6.255.20" loginid="root" passwd="DVAspFlH"/>
+            <server name="哈尔滨TS1" ip="113.6.255.43" loginid="root" passwd="DVAspFlH"/>
+            <server name="哈尔滨TS1" ip="113.6.255.60" loginid="root" passwd="DVAspFlH"/>
+            <server name="汕头TS1" ip="121.14.225.135" loginid="root" passwd="DVAspFlH"/>
+            <server name="汕头TS1" ip="121.14.225.169" loginid="root" passwd="DVAspFlH"/>
+            <server name="汕头TS1" ip="121.14.225.179" loginid="root" passwd="DVAspFlH"/>
+            <server name="汕头TS1" ip="121.14.225.180" loginid="root" passwd="DVAspFlH"/>
+            <server name="汕头TS2" ip="121.14.225.63" loginid="root" passwd="DVAspFlH"/>
+            <server name="汕头TS2" ip="121.14.225.64" loginid="root" passwd="DVAspFlH"/>
+            <server name="湛江TS1" ip="121.10.127.202" loginid="root" passwd="DVAspFlH"/>
+            <server name="湛江TS1" ip="121.10.127.148" loginid="root" passwd="DVAspFlH"/>
+            <server name="湛江TS1" ip="121.10.127.135" loginid="root" passwd="DVAspFlH"/>
+            <server name="湛江TS2" ip="121.10.127.100" loginid="root" passwd="DVAspFlH"/>
+            <server name="湛江TS2" ip="121.10.127.190" loginid="root" passwd="DVAspFlH"/>
+            <server name="湛江SP1" ip="121.10.127.90" loginid="root" passwd="DVAspFlH"/>
+            <server name="湛江SP2" ip="121.10.127.91" loginid="root" passwd="DVAspFlH"/>
+            <server name="湛江SP2" ip="121.10.127.92" loginid="root" passwd="DVAspFlH"/>
+            <server name="湛江SP2" ip="121.10.127.93" loginid="root" passwd="DVAspFlH"/>
+            <server name="湛江SP2" ip="121.10.127.94" loginid="root" passwd="DVAspFlH"/>
+            <server name="遂宁TS1" ip="118.122.176.152" loginid="root" passwd="DVAspFlH"/>
+            <server name="遂宁TS1" ip="118.122.176.236" loginid="root" passwd="DVAspFlH"/>
+            <server name="武汉TS1" ip="59.173.16.202" loginid="root" passwd="DVAspFlH"/>
+            <server name="金华TS1" ip="60.191.252.211" loginid="root" passwd="DVAspFlH"/>
+            <server name="金华TS1" ip="60.191.252.240" loginid="root" passwd="DVAspFlH"/>
+            <server name="武汉TS1" ip="59.173.16.184" loginid="root" passwd="DVAspFlH"/>
+            <server name="武汉TS1" ip="59.173.16.194" loginid="root" passwd="DVAspFlH"/>
+            <server name="汕头TS" ip="121.14.225.196" loginid="root" passwd="DVAspFlH"/>
+            <server name="汕头TS" ip="121.14.225.197" loginid="root" passwd="DVAspFlH"/>
+            <server name="dl8.leaf7.qdts1.okglb.com" ip="119.167.247.209" loginid="root" passwd="DVAspFlH"/>
+            <server name="dl8.leaf1.harbts2.okglb.com" ip="113.6.255.86" loginid="root" passwd="DVAspFlH"/>
+            <server name="汕头TS-dl10.leaf3.stts1.okglb.com" ip="121.14.225.160" loginid="root" passwd="DVAspFlH"/>
+            <server name="湛江TS-dl8.leaf3.zjts1.okglb.com" ip="121.10.127.159" loginid="root" passwd="DVAspFlH"/>
+            <server name="遂宁TS1-dl4.leaf1.snts1.okglb.com" ip="118.122.176.197" loginid="root" passwd="DVAspFlH"/>
+            <server name="武汉下载" ip="59.173.16.66" loginid="root" passwd="DVAspFlH"/>
+            <server name="武汉下载" ip="59.173.16.67" loginid="root" passwd="DVAspFlH"/>
+            <server name="武汉下载" ip="59.173.16.68" loginid="root" passwd="DVAspFlH"/>
+            <server name="武汉下载" ip="59.173.16.69" loginid="root" passwd="DVAspFlH"/>
+            <server name="武汉下载" ip="59.173.16.73" loginid="root" passwd="DVAspFlH"/>
+            <server name="武汉下载" ip="59.173.16.72" loginid="root" passwd="DVAspFlH"/>
+            <server name="武汉下载" ip="59.173.16.71" loginid="root" passwd="DVAspFlH"/>
+            <server name="武汉下载" ip="59.173.16.70" loginid="root" passwd="DVAspFlH"/>
+            <server name="哈尔滨节点siteroot" ip="113.6.255.139" loginid="root" passwd="&amp;ljaef&amp;34gh"/>
+            <server name="汕头节点siteroot" ip="121.14.225.67" loginid="root" passwd="&amp;ljaef&amp;34gh"/>
+            <server name="湛江_siteroot" ip="121.10.127.2" loginid="root" passwd="&amp;ljaef&amp;34gh"/>
+            <server name="金华_siteroot_new" ip="60.191.252.178" loginid="root" passwd="&amp;ljaef&amp;34gh"/>
+            <server name="青岛-下载" ip="119.167.246.101" loginid="root" passwd="DVAspFlH"/>
+            <server name="青岛-下载" ip="119.167.246.102" loginid="root" passwd="DVAspFlH"/>
+            <server name="青岛-下载" ip="119.167.246.103" loginid="root" passwd="DVAspFlH"/>
+            <server name="青岛-下载" ip="119.167.246.104" loginid="root" passwd="DVAspFlH"/>
+            <server name="青岛-下载" ip="119.167.246.108" loginid="root" passwd="DVAspFlH"/>
+            <server name="青岛-下载" ip="119.167.246.107" loginid="root" passwd="DVAspFlH"/>
+            <server name="青岛-下载" ip="119.167.246.106" loginid="root" passwd="DVAspFlH"/>
+            <server name="青岛-下载" ip="119.167.246.105" loginid="root" passwd="DVAspFlH"/>
+            <server name="211.151.78.77" ip="211.151.78.77" loginid="root" passwd="DVAspFlH"/>
+            <server name="哈尔滨-下载" ip="113.6.255.247" loginid="root" passwd="DVAspFlH"/>
+            <server name="哈尔滨-下载" ip="113.6.255.246" loginid="root" passwd="DVAspFlH"/>
+            <server name="哈尔滨-下载" ip="113.6.255.245" loginid="root" passwd="DVAspFlH"/>
+            <server name="哈尔滨-下载" ip="113.6.255.244" loginid="root" passwd="DVAspFlH"/>
+            <server name="汕头-下载" ip="121.14.226.61" loginid="root" passwd="DVAspFlH"/>
+            <server name="汕头-下载" ip="121.14.226.59" loginid="root" passwd="DVAspFlH"/>
+            <server name="汕头-下载" ip="121.14.226.24" loginid="root" passwd="DVAspFlH"/>
+            <server name="汕头-下载" ip="121.14.226.8" loginid="root" passwd="DVAspFlH"/>
+            <server name="汕头-下载" ip="121.14.226.73" loginid="root" passwd="DVAspFlH"/>
+            <server name="汕头-下载" ip="121.14.226.72" loginid="root" passwd="DVAspFlH"/>
+            <server name="汕头-下载" ip="121.14.226.69" loginid="root" passwd="DVAspFlH"/>
+            <server name="汕头-下载" ip="121.14.226.68" loginid="root" passwd="DVAspFlH"/>
+            <server name="广州-下载" ip="121.14.58.253" loginid="root" passwd="DVAspFlH"/>
+            <server name="广州-下载" ip="121.14.58.250" loginid="root" passwd="DVAspFlH"/>
+            <server name="广州-下载" ip="121.14.58.245" loginid="root" passwd="DVAspFlH"/>
+            <server name="广州-下载" ip="121.14.58.254" loginid="root" passwd="DVAspFlH"/>
+            <server name="沈阳-下载" ip="218.60.36.62" loginid="root" passwd="DVAspFlH"/>
+            <server name="沈阳-下载" ip="218.60.36.61" loginid="root" passwd="DVAspFlH"/>
+            <server name="沈阳-下载" ip="218.60.36.60" loginid="root" passwd="DVAspFlH"/>
+            <server name="沈阳-下载" ip="218.60.36.59" loginid="root" passwd="DVAspFlH"/>
+            <server name="湛江-下载" ip="59.34.215.4" loginid="root" passwd="DVAspFlH"/>
+            <server name="湛江-下载" ip="59.34.215.7" loginid="root" passwd="DVAspFlH"/>
+            <server name="湛江-下载" ip="59.34.215.6" loginid="root" passwd="DVAspFlH"/>
+            <server name="湛江-下载" ip="59.34.215.5" loginid="root" passwd="DVAspFlH"/>
+            <server name="湛江-下载" ip="59.34.215.20" loginid="root" passwd="DVAspFlH"/>
+            <server name="湛江-下载" ip="59.34.215.19" loginid="root" passwd="DVAspFlH"/>
+            <server name="湛江-下载" ip="59.34.215.15" loginid="root" passwd="DVAspFlH"/>
+            <server name="湛江-下载" ip="59.34.215.9" loginid="root" passwd="DVAspFlH"/>
+            <server name="金华-下载" ip="60.191.192.155" loginid="root" passwd="DVAspFlH"/>
+            <server name="金华-下载" ip="60.191.192.154" loginid="root" passwd="DVAspFlH"/>
+            <server name="金华-下载" ip="60.191.192.153" loginid="root" passwd="DVAspFlH"/>
+            <server name="金华-下载" ip="60.191.192.149" loginid="root" passwd="DVAspFlH"/>
+            <server name="金华-下载" ip="60.191.192.158" loginid="root" passwd="DVAspFlH"/>
+            <server name="金华-下载" ip="60.191.192.163" loginid="root" passwd="DVAspFlH"/>
+            <server name="金华-下载" ip="60.191.192.164" loginid="root" passwd="DVAspFlH"/>
+            <server name="金华-下载" ip="60.191.192.165" loginid="root" passwd="DVAspFlH"/>
+            <server name="沈阳siteroot新" ip="218.60.36.56" loginid="root" passwd="&amp;ljaef&amp;34gh"/>
+            <server name="遂宁siteroot新" ip="118.122.176.245" loginid="root" passwd="&amp;ljaef&amp;34gh"/>
+            <server name="遂宁-下载" ip="118.122.176.249" loginid="root" passwd="DVAspFlH"/>
+            <server name="遂宁-下载" ip="118.122.176.248" loginid="root" passwd="DVAspFlH"/>
+            <server name="遂宁-下载" ip="118.122.176.238" loginid="root" passwd="DVAspFlH"/>
+            <server name="遂宁-下载" ip="118.122.176.250" loginid="root" passwd="DVAspFlH"/>
+            <server name="湛江-下载" ip="121.10.127.181" loginid="root" passwd="DVAspFlH"/>
+            <server name="汕头-下载" ip="121.14.225.181" loginid="root" passwd="DVAspFlH"/>
+            <server name="北京-下载" ip="61.49.51.252" loginid="root" passwd="DVAspFlH"/>
+            <server name="青岛新_siteroot" ip="119.167.246.5" loginid="root" passwd="&amp;ljaef&amp;34gh"/>
+            <server name="武汉siteroot新" ip="59.173.16.178" loginid="root" passwd="&amp;ljaef&amp;34gh"/>
+        </server_group>
+    
+        <server_group name="site-root">
+            <server name="湛江_siteroot" ip="121.10.127.13" loginid="root" passwd="&amp;ljaef&amp;34gh"/>
+            <server name="汕头_siteroot" ip="121.14.225.13" loginid="root" passwd="&amp;ljaef&amp;34gh"/>
+            <server name="沈阳2_siteroot" ip="218.60.36.8" loginid="root" passwd="&amp;ljaef&amp;34gh"/>
+            <server name="哈尔滨_siteroot" ip="113.6.255.148" loginid="root" passwd="&amp;ljaef&amp;34gh"/>
+            <server name="青岛_siteroot" ip="119.167.246.13" loginid="root" passwd="&amp;ljaef&amp;34gh"/>
+            <server name="金华_siteroot" ip="60.191.252.170" loginid="root" passwd="&amp;ljaef&amp;34gh"/> 
+            <server name="遂宁_siteroot" ip="118.122.176.225" loginid="root" passwd="&amp;ljaef&amp;34gh"/>
+        </server_group>
+        
+        <server_group name="newly-added">
+            <server name="遂宁-下载" ip="10.12.18.75" loginid="root" passwd="DVAspFlH"/>
+            <server name="遂宁-下载" ip="10.12.18.74" loginid="root" passwd="DVAspFlH"/>
+            <server name="遂宁-下载" ip="10.12.18.79" loginid="root" passwd="DVAspFlH"/>
+            <server name="遂宁-下载" ip="10.12.18.78" loginid="root" passwd="DVAspFlH"/>
+            <server name="湛江-下载" ip="10.13.19.181" loginid="root" passwd="DVAspFlH"/>
+            <server name="汕头-下载" ip="10.13.21.181" loginid="root" passwd="DVAspFlH"/>
+            <server name="北京-下载" ip="10.13.12.166" loginid="root" passwd="DVAspFlH"/>
+       </server_group>
+       
+        <server_group name="fds_top_servers">
+            <server name="联想研究院[119.167.246.19]" ip="60.191.252.141" loginid="root" passwd="DVAspFlH"/>
+            <server name="联想研究院[119.167.246.120]" ip="119.167.246.134" loginid="root" passwd="DVAspFlH"/>
+            <server name="联想研究院[119.167.246.153]" ip="113.6.255.20" loginid="root" passwd="DVAspFlH"/>
+            <server name="联想研究院[113.6.255.77]" ip="121.14.225.135" loginid="root" passwd="DVAspFlH"/>
+            <server name="联想研究院[113.6.255.121]" ip="121.10.127.202" loginid="root" passwd="DVAspFlH"/>
+            <server name="联想研究院[113.6.255.138]" ip="118.122.176.152" loginid="root" passwd="DVAspFlH"/>
+            <server name="联想研究院[113.6.255.138]" ip="59.173.16.202" loginid="root" passwd="DVAspFlH"/>
+            <server name="联想研究院[113.6.255.138]" ip="121.14.226.59" loginid="root" passwd="DVAspFlH"/>
+            <server name="联想研究院[113.6.255.138]" ip="121.14.58.253" loginid="root" passwd="DVAspFlH"/>
+            <server name="联想研究院[113.6.255.138]" ip="218.60.36.61" loginid="root" passwd="DVAspFlH"/>
+            
+        </server_group>
+        
+        <server_group name="fds-center-51">
+            <server name="fds-center-51" ip="10.10.10.51" loginid="root" passwd="qwer 1234"/>            
+        </server_group>
+        
+    </server_groups>
+
+    <task name="put_restart_pl" desc="send tomcat restart script ...">
+        <scp_put>
+            <from>/home/harley/workspaces/perl/restart.pl</from>
+            <to>/usr/share/tomcat/bin/</to>
+        </scp_put>
+        <exec>chmod +x /usr/share/tomcat/bin/restart.pl</exec>
+    </task>
+    
+    <task name="scp:cdn-fds.jar" desc="send tomcat restart script ...">
+        <scp_put>
+            <from>/home/harley/workspaces/java/java/cdn-fds/target/cdn-fds.jar</from>
+            <to>/usr/share/tomcat/webapps/cdn-fds/WEB-INF/lib/</to>
+        </scp_put>
+    </task>
+    
+    <task name="ll-tomcat-restart.pl">
+        <!-- fds fsd fsd fsd fsd -->        
+        <exec capture_output="true">ls -l /usr/share/tomcat/bin/restart.pl</exec>
+    </task>
+    
+    <task name="restart-tomcat">
+        <!-- fds fsd fsd fsd fsd -->        
+        <exec>/usr/share/tomcat/bin/restart.pl</exec>
+    </task>
+    
+    <task name="test-account">
+        <exec capture_output="true">uname -a</exec>
+        <exec capture_output="true">cat /etc/issue</exec>
+        <exec capture_output="true">/usr/share/jdk1.6.0_14/bin/java -version</exec>
+    </task>
+    
+    <task name="show-fds-version">
+        <exec capture_output="true">/usr/share/jdk1.6.0_14/bin/java -classpath :/usr/share/tomcat/webapps/cdn-fds/WEB-INF/lib/cdn-fds.jar com.vianet.cdn.fds.core.Version</exec>
+    </task>
+    
+    <task name="show-rsync-conf">
+        <exec capture_output="true">cat /etc/rsyncd.conf</exec>
+    </task>
+    
+    <task name="detect-tomcat">
+        <!-- <detect port="8080" taskForSuccess="show-fds-version" taskForFailure="show-rsync-conf" /> -->
+        <detect port="8080"/>
+    </task>
+    
+    <task name="detect-rsync">
+        <detect port="873"/>
+    </task>
+    
+    <!-- put config files -->
+    <task name="put-config-files" desc="put rsyncd.conf web.xml and kill.tar.gz ...">
+        <scp_put>
+            <from>/home/harley/tmp/new-fds-v2.0/web.xml</from>
+            <to>/usr/share/tomcat/webapps/cdn-fds/WEB-INF/</to>
+        </scp_put>
+        <scp_put>
+            <from>/home/harley/tmp/new-fds-v2.0/applicationContext.xml</from>
+            <to>/usr/share/tomcat/webapps/cdn-fds/WEB-INF/classes/</to>
+        </scp_put>
+
+    </task>
+    
+    <!-- put kill command  to servers ... -->
+    <task name="put-kill-cmd">
+        <scp_put>
+            <from>/home/harley/tmp/new-fds-v2.0/kill.tar.gz</from>
+            <to>/usr/share/tomcat/webapps/cdn-fds/WEB-INF/classes/</to>
+        </scp_put>
+        <exec>tar xzvf /usr/share/tomcat/webapps/cdn-fds/WEB-INF/classes/kill.tar.gz -C /usr/share/tomcat/webapps/cdn-fds/WEB-INF/classes</exec>
+    </task>
+    
+    <task name="put-perl-rename-cmd">
+        <scp_put>
+            <from>/home/harley/workspaces/java/java/cdn-fds/scripts/perl/rename.pl</from>
+            <to>/usr/share/tomcat/webapps/cdn-fds/WEB-INF/classes/</to>
+        </scp_put>
+        <exec>chmod +x /usr/share/tomcat/webapps/cdn-fds/WEB-INF/classes/rename.pl</exec>
+    </task>
+    
+    <task name="change-tomcat-startup-script">
+        <exec>sed -i 's/zh_CN.GBK/zh_CN.UTF-8/' /usr/share/tomcat/bin/startup.sh</exec>
+    </task>
+    
+    <!--start rsyncd ... -->
+    <task name="start-rsyncd">
+        <exec capture_output="true">nohup rsync --daemon --config=/etc/rsyncd.conf</exec>
+        <exec capture_output="true">ps aux |grep rsync</exec>
+    </task>
+    
+    <!-- put new config files -->
+    <task name="put-fds-system.properties" desc="put fds-system.properties ...">
+        <scp_put>
+            <from>/home/harley/tmp/new-fds-v2.0/fds-system.properties</from>
+            <to>/usr/share/tomcat/webapps/cdn-fds/WEB-INF/classes/</to>
+        </scp_put>
+        <exec capture_output="true">cat /usr/share/tomcat/webapps/cdn-fds/WEB-INF/classes/fds-system.properties</exec>
+    </task>
+
+
+    
+    <task name="killall_rsync" desc="">
+        <exec>killall rsync</exec>
+    </task>
+    
+    <workflow>
+        <step servers="testservers">
+            
+            <!--
+            <taskref taskname="detect-tomcat"/>
+            <taskref taskname="detect-rsync"/>
+            <taskref taskname="put_restart_pl"/>
+            <taskref taskname="scp:cdn-fds.jar"/>
+            <taskref taskname="restart-tomcat"/>
+            -->
+        </step>
+        
+        <step servers="newly-added">
+            
+            
+            <!--
+            <taskref taskname="ll-tomcat-restart.pl"/>
+            <taskref taskname="show-fds-version"/>
+            <taskref taskname="detect-tomcat"/>
+            <taskref taskname="detect-rsync"/>
+            
+            <taskref taskname="put_restart_pl"/>
+            <taskref taskname="scp:cdn-fds.jar"/>
+            <taskref taskname="restart-tomcat"/>
+            -->
+        </step>
+        
+        <step servers="servers-in-use">
+            <taskref taskname="scp:cdn-fds.jar"/>
+            <taskref taskname="restart-tomcat"/>
+            <taskref taskname="show-fds-version"/>
+            <!--
+            <taskref taskname="killall_rsync"/>
+            <taskref taskname="show-fds-version"/>
+            <taskref taskname="detect-tomcat"/>
+            <taskref taskname="detect-rsync"/>
+            <taskref taskname="test-account"/>
+            <taskref taskname="test-account"/>
+            <taskref taskname="put-kill-cmd"/>
+            <taskref taskname="start-rsyncd"/>
+            <taskref taskname="put_restart_pl"/>
+            <taskref taskname="scp:cdn-fds.jar"/>
+            <taskref taskname="restart-tomcat"/>
+            <taskref taskname="show-fds-version"/>
+            -->
+        </step>
+        <step servers="fds_top_servers">            
+            <!--
+            <taskref taskname="ll-tomcat-restart.pl"/>
+            <taskref taskname="show-fds-version"/>
+            <taskref taskname="detect-tomcat"/>
+            <taskref taskname="detect-rsync"/>            
+            <taskref taskname="put_restart_pl"/>
+            <taskref taskname="scp:cdn-fds.jar"/>
+            <taskref taskname="restart-tomcat"/>
+            -->
+        </step>
+    </workflow>
+    
+</rtasks>
+

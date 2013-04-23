@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rtasks>
+    <server_groups>
+        <server_group name="testservers">
+            <server name="test-server-3.27" ip="192.168.3.39"  loginid="root" passwd="21vianet"/>
+        </server_group>        
+    </server_groups>
+
+    <task name="put_restart_pl" desc="send tomcat restart script ...">
+        <scp_put>
+            <from>/home/harley/workspaces/perl/restart.pl</from>
+            <to>/usr/share/tomcat/bin/</to>
+        </scp_put>
+        <exec>chmod +x /usr/share/tomcat/bin/restart.pl</exec>
+    </task>
+    
+    <task name="scp:cdn-fds.jar" desc="send tomcat restart script ...">
+        <scp_put>
+            <from>/home/harley/workspaces/java/java/cdn-fds/target/cdn-fds.jar</from>
+            <to>/usr/share/tomcat/webapps/cdn-fds/WEB-INF/lib/</to>
+        </scp_put>
+    </task>
+    
+    <task name="ll-tomcat-restart.pl">
+        <!-- fds fsd fsd fsd fsd -->        
+        <exec capture_output="true">ls -l /usr/share/tomcat/bin/restart.pl</exec>
+    </task>
+    
+    <task name="restart-tomcat">
+        <!-- fds fsd fsd fsd fsd -->        
+        <exec>/usr/share/tomcat/bin/restart.pl</exec>
+    </task>
+    
+    <task name="test-account">
+        <exec capture_output="true">uname -a</exec>
+        <exec capture_output="true">cat /etc/issue</exec>
+        <exec capture_output="true">/usr/share/jdk1.6.0_14/bin/java -version</exec>
+    </task>
+    
+    <task name="show-fds-version">
+        <exec capture_output="true">/usr/share/jdk1.6.0_14/bin/java -classpath :/usr/share/tomcat/webapps/cdn-fds/WEB-INF/lib/cdn-fds.jar com.vianet.cdn.fds.core.Version</exec>
+    </task>
+    
+    <task name="show-rsync-conf">
+        <exec capture_output="true">cat /etc/rsyncd.conf</exec>
+    </task>
+    
+    <task name="detect-tomcat">
+        <!-- <detect port="8080" taskForSuccess="show-fds-version" taskForFailure="show-rsync-conf" /> -->
+        <detect port="8080"/>
+    </task>
+    
+    <task name="detect-rsync">
+        <detect port="873"/>
+    </task>
+    
+    <!-- put config files -->
+    <task name="put-config-files" desc="put rsyncd.conf web.xml and kill.tar.gz ...">
+        <scp_put>
+            <from>/home/harley/tmp/new-fds-v2.0/web.xml</from>
+            <to>/usr/share/tomcat/webapps/cdn-fds/WEB-INF/</to>
+        </scp_put>
+        <scp_put>
+            <from>/home/harley/tmp/new-fds-v2.0/applicationContext.xml</from>
+            <to>/usr/share/tomcat/webapps/cdn-fds/WEB-INF/classes/</to>
+        </scp_put>
+
+    </task>
+    
+    <!-- put kill command  to servers ... -->
+    <task name="put-kill-cmd">
+        <scp_put>
+            <from>/home/harley/tmp/new-fds-v2.0/kill.tar.gz</from>
+            <to>/usr/share/tomcat/webapps/cdn-fds/WEB-INF/classes/</to>
+        </scp_put>
+        <exec>tar xzvf /usr/share/tomcat/webapps/cdn-fds/WEB-INF/classes/kill.tar.gz -C /usr/share/tomcat/webapps/cdn-fds/WEB-INF/classes</exec>
+    </task>
+    
+    <task name="put-perl-rsync-cmd">
+        <scp_put>
+            <from>/home/harley/workspaces/java/java/cdn-fds/scripts/perl/rename.pl</from>
+            <to>/usr/share/tomcat/webapps/cdn-fds/WEB-INF/classes/</to>
+        </scp_put>
+        <exec>chmod +x /usr/share/tomcat/webapps/cdn-fds/WEB-INF/classes/rename.pl</exec>
+    </task>
+    
+    <!--start rsyncd ... -->
+    <task name="start-rsyncd">
+        <exec capture_output="true">nohup rsync --daemon --config=/etc/rsyncd.conf</exec>
+        <exec capture_output="true">ps aux |grep rsync</exec>
+    </task>
+    
+    <!-- put new config files -->
+    <task name="put-fds-system.properties" desc="put fds-system.properties ...">
+        <scp_put>
+            <from>/home/harley/tmp/new-fds-v2.0/fds-system.properties</from>
+            <to>/usr/share/tomcat/webapps/cdn-fds/WEB-INF/classes/</to>
+        </scp_put>
+        <exec capture_output="true">cat /usr/share/tomcat/webapps/cdn-fds/WEB-INF/classes/fds-system.properties</exec>
+    </task>
+    
+    <!-- put list md5.pl -->
+    <task name="put_lisdir_pl" desc="send tomcat restart script ...">
+        <scp_put>
+            <from>/home/harley/workspaces/perl/listdir.pl</from>
+            <to>/root/listdir.pl</to>
+        </scp_put>
+        <exec>chmod +x /root/listdir.pl</exec>        
+    </task>
+    
+    <task name="list-all-md51" desc="send tomcat restart script ...">
+        <exec>/root/listdir.pl /siteroot/api.vips100.com/</exec>
+    </task>
+    
+    <task name="killall_rsync" desc="">
+        <exec>killall rsync</exec>
+    </task>
+    
+    <workflow>
+        <step servers="testservers">
+            
+            <!--
+            <taskref taskname="detect-tomcat"/>
+            <taskref taskname="detect-rsync"/>
+            <taskref taskname="put_restart_pl"/>
+            <taskref taskname="scp:cdn-fds.jar"/>
+            <taskref taskname="restart-tomcat"/>
+            -->
+        </step>
+        
+        <step servers="newly-added">
+            
+            
+            <!--
+            <taskref taskname="ll-tomcat-restart.pl"/>
+            <taskref taskname="show-fds-version"/>
+            <taskref taskname="detect-tomcat"/>
+            <taskref taskname="detect-rsync"/>
+            
+            <taskref taskname="put_restart_pl"/>
+            <taskref taskname="scp:cdn-fds.jar"/>
+            <taskref taskname="restart-tomcat"/>
+            -->
+        </step>
+        
+        <step servers="testservers">
+            <taskref taskname="scp:cdn-fds.jar"/>
+            <taskref taskname="restart-tomcat"/>
+            <taskref taskname="show-fds-version"/>
+            <taskref taskname="put-perl-rsync-cmd"/>
+            <!--
+            <taskref taskname="killall_rsync"/>
+            <taskref taskname="show-fds-version"/>
+            <taskref taskname="detect-tomcat"/>
+            <taskref taskname="detect-rsync"/>
+            <taskref taskname="test-account"/>
+            <taskref taskname="test-account"/>
+            <taskref taskname="put-kill-cmd"/>
+            <taskref taskname="start-rsyncd"/>
+            <taskref taskname="put_restart_pl"/>
+            <taskref taskname="scp:cdn-fds.jar"/>
+            <taskref taskname="restart-tomcat"/>
+            <taskref taskname="show-fds-version"/>
+            -->
+        </step>
+        <step servers="fds_top_servers">            
+            <!--
+            <taskref taskname="ll-tomcat-restart.pl"/>
+            <taskref taskname="show-fds-version"/>
+            <taskref taskname="detect-tomcat"/>
+            <taskref taskname="detect-rsync"/>            
+            <taskref taskname="put_restart_pl"/>
+            <taskref taskname="scp:cdn-fds.jar"/>
+            <taskref taskname="restart-tomcat"/>
+            -->
+        </step>
+    </workflow>
+    
+</rtasks>
+

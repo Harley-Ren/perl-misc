@@ -1,0 +1,1680 @@
+fds-center-51 
+fds-center-51
+site-root 
+湛江_siteroot
+汕头_siteroot
+沈阳2_siteroot
+哈尔滨_siteroot
+青岛_siteroot
+金华_siteroot
+遂宁_siteroot
+fds_servers 
+哈尔滨_siteroot
+遂宁_siteroot
+newly-added 
+遂宁-下载
+遂宁-下载
+遂宁-下载
+遂宁-下载
+湛江-下载
+汕头-下载
+北京-下载
+servers-in-use 
+哈尔滨_siteroot
+遂宁_siteroot
+汕头_siteroot
+金华_siteroot
+湛江_siteroot
+青岛_siteroot
+沈阳2_siteroot
+畅游-青岛
+畅游-哈尔滨
+畅游-哈尔滨2
+畅游-湛江
+畅游-金华
+畅游-汕头
+lenovo-download-119.167.247.152
+游戏事业部-青岛TS1
+青岛TS2
+汕头TS1
+湛江TS2
+遂宁TS1
+金华TS1
+青岛TS1
+哈尔滨TS1
+遂宁TS2
+金华TS2
+联想研究院[119.167.246.19]
+联想研究院[119.167.246.120]
+联想研究院[119.167.246.153]
+联想研究院[113.6.255.77]
+联想研究院[113.6.255.121]
+联想研究院[113.6.255.138]
+联想研究院[121.14.225.107]
+联想研究院[121.14.225.173]
+联想研究院[121.14.225.190]
+联想研究院[121.10.127.141]
+联想研究院[121.10.127.114]
+联想研究院[59.173.16.180]
+联想研究院[59.173.16.201]
+联想研究院[59.173.16.246]
+联想研究院[118.122.176.242]
+联想研究院[118.122.176.243]
+联想研究院[118.122.176.244]
+联想研究院[60.191.252.159]
+联想研究院[60.191.252.160]
+联想研究院[60.191.252.161]
+青岛TS1
+青岛TS1
+青岛TS2
+青岛TS2
+青岛TS2
+青岛TS2
+哈尔滨TS1
+哈尔滨TS1
+哈尔滨TS1
+汕头TS1
+汕头TS1
+汕头TS1
+汕头TS1
+汕头TS2
+汕头TS2
+湛江TS1
+湛江TS1
+湛江TS1
+湛江TS2
+湛江TS2
+湛江SP1
+湛江SP2
+湛江SP2
+湛江SP2
+湛江SP2
+遂宁TS1
+遂宁TS1
+武汉TS1
+武汉TS1
+金华TS1
+金华TS1
+武汉TS1
+汕头TS
+汕头TS
+dl8.leaf7.qdts1.okglb.com
+dl8.leaf1.harbts2.okglb.com
+汕头TS-dl10.leaf3.stts1.okglb.com
+湛江TS-dl8.leaf3.zjts1.okglb.com
+遂宁TS1-dl4.leaf1.snts1.okglb.com
+dl1.leaf1.whdlzy1
+dl4.leaf1.whdlzy1
+dl3.leaf1.whdlzy1
+dl2.leaf1.whdlzy1
+dl4.leaf2.whdlzy1
+dl3.leaf2.whdlzy1
+dl2.leaf2.whdlzy1
+dl1.leaf2.whdlzy1
+哈尔滨-下载
+哈尔滨-下载
+哈尔滨-下载
+哈尔滨-下载
+汕头-下载
+汕头-下载
+汕头-下载
+汕头-下载
+汕头-下载
+汕头-下载
+汕头-下载
+汕头-下载
+广州-下载
+广州-下载
+广州-下载
+广州-下载
+沈阳-下载
+沈阳-下载
+沈阳-下载
+沈阳-下载
+湛江-下载
+湛江-下载
+湛江-下载
+湛江-下载
+湛江-下载
+湛江-下载
+湛江-下载
+湛江-下载
+金华-下载
+金华-下载
+金华-下载
+金华-下载
+金华-下载
+金华-下载
+金华-下载
+金华-下载
+testservers 
+test124
+test197
+fds_top_servers 
+联想研究院[119.167.246.19]
+联想研究院[119.167.246.120]
+联想研究院[119.167.246.153]
+联想研究院[113.6.255.77]
+联想研究院[113.6.255.121]
+联想研究院[113.6.255.138]
+联想研究院[113.6.255.138]
+联想研究院[113.6.255.138]
+联想研究院[113.6.255.138]
+联想研究院[113.6.255.138]
+Taskname: put_restart_pl
+Taskname: scp:cdn-fds.jar
+Taskname: ll-tomcat-restart.pl
+Taskname: restart-tomcat
+Taskname: test-account
+Taskname: show-fds-version
+Taskname: show-rsync-conf
+Taskname: detect-tomcat
+Taskname: detect-rsync
+Taskname: put-config-files
+Taskname: put-kill-cmd
+Taskname: start-rsyncd
+Taskname: put-fds-system.properties
+Taskname: put_lisdir_pl
+Taskname: list-all-md51
+Taskname: killall_rsync
+taskref_count: 3
+
+try to connect to 哈尔滨_siteroot [10.12.11.13] ...
+SSH connection established!
+taskref name:scp:cdn-fds.jar
+scp put: from= /home/harley/workspaces/java/java/cdn-fds/target/cdn-fds.jar ,to=/usr/share/tomcat/webapps/cdn-fds/WEB-INF/lib/ ... success!
+taskref name:restart-tomcat
+run command: /usr/share/tomcat/bin/restart.pl
+stopping tomcat ...
+starting tomcat ... 
+taskref name:show-fds-version
+run command: /usr/share/jdk1.6.0_14/bin/java -classpath :/usr/share/tomcat/webapps/cdn-fds/WEB-INF/lib/cdn-fds.jar com.vianet.cdn.fds.core.Version
+CDN-FDS version: 2.07
+
+try to connect to 遂宁_siteroot [10.12.18.13] ...
+SSH connection established!
+taskref name:scp:cdn-fds.jar
+scp put: from= /home/harley/workspaces/java/java/cdn-fds/target/cdn-fds.jar ,to=/usr/share/tomcat/webapps/cdn-fds/WEB-INF/lib/ ... success!
+taskref name:restart-tomcat
+run command: /usr/share/tomcat/bin/restart.pl
+stopping tomcat ...
+starting tomcat ... 
+taskref name:show-fds-version
+run command: /usr/share/jdk1.6.0_14/bin/java -classpath :/usr/share/tomcat/webapps/cdn-fds/WEB-INF/lib/cdn-fds.jar com.vianet.cdn.fds.core.Version
+CDN-FDS version: 2.07
+
+try to connect to 汕头_siteroot [10.12.17.13] ...
+SSH connection established!
+taskref name:scp:cdn-fds.jar
+scp put: from= /home/harley/workspaces/java/java/cdn-fds/target/cdn-fds.jar ,to=/usr/share/tomcat/webapps/cdn-fds/WEB-INF/lib/ ... success!
+taskref name:restart-tomcat
+run command: /usr/share/tomcat/bin/restart.pl
+stopping tomcat ...
+starting tomcat ... 
+taskref name:show-fds-version
+run command: /usr/share/jdk1.6.0_14/bin/java -classpath :/usr/share/tomcat/webapps/cdn-fds/WEB-INF/lib/cdn-fds.jar com.vianet.cdn.fds.core.Version
+CDN-FDS version: 2.07
+
+try to connect to 金华_siteroot [10.12.14.13] ...
+SSH connection established!
+taskref name:scp:cdn-fds.jar
+scp put: from= /home/harley/workspaces/java/java/cdn-fds/target/cdn-fds.jar ,to=/usr/share/tomcat/webapps/cdn-fds/WEB-INF/lib/ ... success!
+taskref name:restart-tomcat
+run command: /usr/share/tomcat/bin/restart.pl
+stopping tomcat ...
+starting tomcat ... 
+taskref name:show-fds-version
+run command: /usr/share/jdk1.6.0_14/bin/java -classpath :/usr/share/tomcat/webapps/cdn-fds/WEB-INF/lib/cdn-fds.jar com.vianet.cdn.fds.core.Version
+CDN-FDS version: 2.07
+
+try to connect to 湛江_siteroot [10.12.15.13] ...
+SSH connection established!
+taskref name:scp:cdn-fds.jar
+scp put: from= /home/harley/workspaces/java/java/cdn-fds/target/cdn-fds.jar ,to=/usr/share/tomcat/webapps/cdn-fds/WEB-INF/lib/ ... success!
+taskref name:restart-tomcat
+run command: /usr/share/tomcat/bin/restart.pl
+stopping tomcat ...
+starting tomcat ... 
+taskref name:show-fds-version
+run command: /usr/share/jdk1.6.0_14/bin/java -classpath :/usr/share/tomcat/webapps/cdn-fds/WEB-INF/lib/cdn-fds.jar com.vianet.cdn.fds.core.Version
+CDN-FDS version: 2.07
+
+try to connect to 青岛_siteroot [10.12.12.13] ...
+SSH connection established!
+taskref name:scp:cdn-fds.jar
+scp put: from= /home/harley/workspaces/java/java/cdn-fds/target/cdn-fds.jar ,to=/usr/share/tomcat/webapps/cdn-fds/WEB-INF/lib/ ... success!
+taskref name:restart-tomcat
+run command: /usr/share/tomcat/bin/restart.pl
+stopping tomcat ...
+starting tomcat ... 
+taskref name:show-fds-version
+run command: /usr/share/jdk1.6.0_14/bin/java -classpath :/usr/share/tomcat/webapps/cdn-fds/WEB-INF/lib/cdn-fds.jar com.vianet.cdn.fds.core.Version
+CDN-FDS version: 2.07
+
+try to connect to 沈阳2_siteroot [10.12.13.13] ...
+SSH connection established!
+taskref name:scp:cdn-fds.jar
+scp put: from= /home/harley/workspaces/java/java/cdn-fds/target/cdn-fds.jar ,to=/usr/share/tomcat/webapps/cdn-fds/WEB-INF/lib/ ... success!
+taskref name:restart-tomcat
+run command: /usr/share/tomcat/bin/restart.pl
+stopping tomcat ...
+starting tomcat ... 
+taskref name:show-fds-version
+run command: /usr/share/jdk1.6.0_14/bin/java -classpath :/usr/share/tomcat/webapps/cdn-fds/WEB-INF/lib/cdn-fds.jar com.vianet.cdn.fds.core.Version
+CDN-FDS version: 2.07
+
+try to connect to 畅游-青岛 [10.12.12.145] ...
+Couldn't establish SSH connection: unable to establish master SSH connection: ssh master exited unexpectedly
+
+try to connect to 畅游-哈尔滨 [10.13.13.133] ...
+SSH connection established!
+taskref name:scp:cdn-fds.jar
+scp put: from= /home/harley/workspaces/java/java/cdn-fds/target/cdn-fds.jar ,to=/usr/share/tomcat/webapps/cdn-fds/WEB-INF/lib/ ... success!
+taskref name:restart-tomcat
+run command: /usr/share/tomcat/bin/restart.pl
+stopping tomcat ..
+starting tomcat ... 
+Neither the JAVA_HOME nor the JRE_HOME environment variable is defined
+At least one of these environment variable is needed to run this program
+run command [/usr/share/tomcat/bin/restart.pl] failed, error:child exited with code 1
+taskref name:show-fds-version
+run command: /usr/share/jdk1.6.0_14/bin/java -classpath :/usr/share/tomcat/webapps/cdn-fds/WEB-INF/lib/cdn-fds.jar com.vianet.cdn.fds.core.Version
+CDN-FDS version: 2.07
+
+try to connect to 畅游-哈尔滨2 [10.13.13.165] ...
+SSH connection established!
+taskref name:scp:cdn-fds.jar
+scp put: from= /home/harley/workspaces/java/java/cdn-fds/target/cdn-fds.jar ,to=/usr/share/tomcat/webapps/cdn-fds/WEB-INF/lib/ ... success!
+taskref name:restart-tomcat
+run command: /usr/share/tomcat/bin/restart.pl
+stopping tomcat ...
+starting tomcat ... 
+taskref name:show-fds-version
+run command: /usr/share/jdk1.6.0_14/bin/java -classpath :/usr/share/tomcat/webapps/cdn-fds/WEB-INF/lib/cdn-fds.jar com.vianet.cdn.fds.core.Version
+CDN-FDS version: 2.07
+
+try to connect to 畅游-湛江 [10.13.19.180] ...
+SSH connection established!
+taskref name:scp:cdn-fds.jar
+scp put: from= /home/harley/workspaces/java/java/cdn-fds/target/cdn-fds.jar ,to=/usr/share/tomcat/webapps/cdn-fds/WEB-INF/lib/ ... success!
+taskref name:restart-tomcat
+run command: /usr/share/tomcat/bin/restart.pl
+stopping tomcat ..
+starting tomcat ... 
+Neither the JAVA_HOME nor the JRE_HOME environment variable is defined
+At least one of these environment variable is needed to run this program
+run command [/usr/share/tomcat/bin/restart.pl] failed, error:child exited with code 1
+taskref name:show-fds-version
+run command: /usr/share/jdk1.6.0_14/bin/java -classpath :/usr/share/tomcat/webapps/cdn-fds/WEB-INF/lib/cdn-fds.jar com.vianet.cdn.fds.core.Version
+CDN-FDS version: 2.07
+
+try to connect to 畅游-金华 [10.13.24.166] ...
+SSH connection established!
+taskref name:scp:cdn-fds.jar
+scp put: from= /home/harley/workspaces/java/java/cdn-fds/target/cdn-fds.jar ,to=/usr/share/tomcat/webapps/cdn-fds/WEB-INF/lib/ ... success!
+taskref name:restart-tomcat
+run command: /usr/share/tomcat/bin/restart.pl
+stopping tomcat ..
+starting tomcat ... 
+Neither the JAVA_HOME nor the JRE_HOME environment variable is defined
+At least one of these environment variable is needed to run this program
+run command [/usr/share/tomcat/bin/restart.pl] failed, error:child exited with code 1
+taskref name:show-fds-version
+run command: /usr/share/jdk1.6.0_14/bin/java -classpath :/usr/share/tomcat/webapps/cdn-fds/WEB-INF/lib/cdn-fds.jar com.vianet.cdn.fds.core.Version
+CDN-FDS version: 2.07
+
+try to connect to 畅游-汕头 [10.13.21.172] ...
+SSH connection established!
+taskref name:scp:cdn-fds.jar
+scp put: from= /home/harley/workspaces/java/java/cdn-fds/target/cdn-fds.jar ,to=/usr/share/tomcat/webapps/cdn-fds/WEB-INF/lib/ ... success!
+taskref name:restart-tomcat
+run command: /usr/share/tomcat/bin/restart.pl
+stopping tomcat ..
+starting tomcat ... 
+Neither the JAVA_HOME nor the JRE_HOME environment variable is defined
+At least one of these environment variable is needed to run this program
+run command [/usr/share/tomcat/bin/restart.pl] failed, error:child exited with code 1
+taskref name:show-fds-version
+run command: /usr/share/jdk1.6.0_14/bin/java -classpath :/usr/share/tomcat/webapps/cdn-fds/WEB-INF/lib/cdn-fds.jar com.vianet.cdn.fds.core.Version
+CDN-FDS version: 2.07
+
+try to connect to lenovo-download-119.167.247.152 [10.13.22.152] ...
+SSH connection established!
+taskref name:scp:cdn-fds.jar
+scp put: from= /home/harley/workspaces/java/java/cdn-fds/target/cdn-fds.jar ,to=/usr/share/tomcat/webapps/cdn-fds/WEB-INF/lib/ ... success!
+taskref name:restart-tomcat
+run command: /usr/share/tomcat/bin/restart.pl
+stopping tomcat ...
+starting tomcat ... 
+taskref name:show-fds-version
+run command: /usr/share/jdk1.6.0_14/bin/java -classpath :/usr/share/tomcat/webapps/cdn-fds/WEB-INF/lib/cdn-fds.jar com.vianet.cdn.fds.core.Version
+CDN-FDS version: 2.07
+
+try to connect to 游戏事业部-青岛TS1 [10.13.22.170] ...
+SSH connection established!
+taskref name:scp:cdn-fds.jar
+scp put: from= /home/harley/workspaces/java/java/cdn-fds/target/cdn-fds.jar ,to=/usr/share/tomcat/webapps/cdn-fds/WEB-INF/lib/ ... success!
+taskref name:restart-tomcat
+run command: /usr/share/tomcat/bin/restart.pl
+stopping tomcat ...
+starting tomcat ... 
+taskref name:show-fds-version
+run command: /usr/share/jdk1.6.0_14/bin/java -classpath :/usr/share/tomcat/webapps/cdn-fds/WEB-INF/lib/cdn-fds.jar com.vianet.cdn.fds.core.Version
+CDN-FDS version: 2.07
+
+try to connect to 青岛TS2 [10.12.12.182] ...
+SSH connection established!
+taskref name:scp:cdn-fds.jar
+scp put: from= /home/harley/workspaces/java/java/cdn-fds/target/cdn-fds.jar ,to=/usr/share/tomcat/webapps/cdn-fds/WEB-INF/lib/ ... success!
+taskref name:restart-tomcat
+run command: /usr/share/tomcat/bin/restart.pl
+stopping tomcat ...
+starting tomcat ... 
+taskref name:show-fds-version
+run command: /usr/share/jdk1.6.0_14/bin/java -classpath :/usr/share/tomcat/webapps/cdn-fds/WEB-INF/lib/cdn-fds.jar com.vianet.cdn.fds.core.Version
+CDN-FDS version: 2.07
+
+try to connect to 汕头TS1 [10.13.21.158] ...
+SSH connection established!
+taskref name:scp:cdn-fds.jar
+scp put: from= /home/harley/workspaces/java/java/cdn-fds/target/cdn-fds.jar ,to=/usr/share/tomcat/webapps/cdn-fds/WEB-INF/lib/ ... success!
+taskref name:restart-tomcat
+run command: /usr/share/tomcat/bin/restart.pl
+stopping tomcat ...
+starting tomcat ... 
+taskref name:show-fds-version
+run command: /usr/share/jdk1.6.0_14/bin/java -classpath :/usr/share/tomcat/webapps/cdn-fds/WEB-INF/lib/cdn-fds.jar com.vianet.cdn.fds.core.Version
+CDN-FDS version: 2.07
+
+try to connect to 湛江TS2 [10.12.15.151] ...
+SSH connection established!
+taskref name:scp:cdn-fds.jar
+scp put: from= /home/harley/workspaces/java/java/cdn-fds/target/cdn-fds.jar ,to=/usr/share/tomcat/webapps/cdn-fds/WEB-INF/lib/ ... success!
+taskref name:restart-tomcat
+run command: /usr/share/tomcat/bin/restart.pl
+stopping tomcat ...
+starting tomcat ... 
+taskref name:show-fds-version
+run command: /usr/share/jdk1.6.0_14/bin/java -classpath :/usr/share/tomcat/webapps/cdn-fds/WEB-INF/lib/cdn-fds.jar com.vianet.cdn.fds.core.Version
+CDN-FDS version: 2.07
+
+try to connect to 遂宁TS1 [10.12.18.140] ...
+SSH connection established!
+taskref name:scp:cdn-fds.jar
+scp put: from= /home/harley/workspaces/java/java/cdn-fds/target/cdn-fds.jar ,to=/usr/share/tomcat/webapps/cdn-fds/WEB-INF/lib/ ... success!
+taskref name:restart-tomcat
+run command: /usr/share/tomcat/bin/restart.pl
+stopping tomcat ...
+starting tomcat ... 
+taskref name:show-fds-version
+run command: /usr/share/jdk1.6.0_14/bin/java -classpath :/usr/share/tomcat/webapps/cdn-fds/WEB-INF/lib/cdn-fds.jar com.vianet.cdn.fds.core.Version
+CDN-FDS version: 2.07
+
+try to connect to 金华TS1 [10.13.24.69] ...
+SSH connection established!
+taskref name:scp:cdn-fds.jar
+scp put: from= /home/harley/workspaces/java/java/cdn-fds/target/cdn-fds.jar ,to=/usr/share/tomcat/webapps/cdn-fds/WEB-INF/lib/ ... success!
+taskref name:restart-tomcat
+run command: /usr/share/tomcat/bin/restart.pl
+stopping tomcat ...
+starting tomcat ... 
+taskref name:show-fds-version
+run command: /usr/share/jdk1.6.0_14/bin/java -classpath :/usr/share/tomcat/webapps/cdn-fds/WEB-INF/lib/cdn-fds.jar com.vianet.cdn.fds.core.Version
+CDN-FDS version: 2.07
+
+try to connect to 青岛TS1 [10.13.22.131] ...
+SSH connection established!
+taskref name:scp:cdn-fds.jar
+scp put: from= /home/harley/workspaces/java/java/cdn-fds/target/cdn-fds.jar ,to=/usr/share/tomcat/webapps/cdn-fds/WEB-INF/lib/ ... success!
+taskref name:restart-tomcat
+run command: /usr/share/tomcat/bin/restart.pl
+stopping tomcat ...
+starting tomcat ... 
+taskref name:show-fds-version
+run command: /usr/share/jdk1.6.0_14/bin/java -classpath :/usr/share/tomcat/webapps/cdn-fds/WEB-INF/lib/cdn-fds.jar com.vianet.cdn.fds.core.Version
+CDN-FDS version: 2.07
+
+try to connect to 哈尔滨TS1 [10.12.11.181] ...
+SSH connection established!
+taskref name:scp:cdn-fds.jar
+scp put: from= /home/harley/workspaces/java/java/cdn-fds/target/cdn-fds.jar ,to=/usr/share/tomcat/webapps/cdn-fds/WEB-INF/lib/ ... success!
+taskref name:restart-tomcat
+run command: /usr/share/tomcat/bin/restart.pl
+stopping tomcat ...
+starting tomcat ... 
+taskref name:show-fds-version
+run command: /usr/share/jdk1.6.0_14/bin/java -classpath :/usr/share/tomcat/webapps/cdn-fds/WEB-INF/lib/cdn-fds.jar com.vianet.cdn.fds.core.Version
+CDN-FDS version: 2.07
+
+try to connect to 遂宁TS2 [10.12.18.157] ...
+SSH connection established!
+taskref name:scp:cdn-fds.jar
+scp put: from= /home/harley/workspaces/java/java/cdn-fds/target/cdn-fds.jar ,to=/usr/share/tomcat/webapps/cdn-fds/WEB-INF/lib/ ... success!
+taskref name:restart-tomcat
+run command: /usr/share/tomcat/bin/restart.pl
+stopping tomcat ...
+starting tomcat ... 
+taskref name:show-fds-version
+run command: /usr/share/jdk1.6.0_14/bin/java -classpath :/usr/share/tomcat/webapps/cdn-fds/WEB-INF/lib/cdn-fds.jar com.vianet.cdn.fds.core.Version
+CDN-FDS version: 2.07
+
+try to connect to 金华TS2 [10.13.24.197] ...
+SSH connection established!
+taskref name:scp:cdn-fds.jar
+scp put: from= /home/harley/workspaces/java/java/cdn-fds/target/cdn-fds.jar ,to=/usr/share/tomcat/webapps/cdn-fds/WEB-INF/lib/ ... success!
+taskref name:restart-tomcat
+run command: /usr/share/tomcat/bin/restart.pl
+stopping tomcat ...
+starting tomcat ... 
+taskref name:show-fds-version
+run command: /usr/share/jdk1.6.0_14/bin/java -classpath :/usr/share/tomcat/webapps/cdn-fds/WEB-INF/lib/cdn-fds.jar com.vianet.cdn.fds.core.Version
+CDN-FDS version: 2.07
+
+try to connect to 联想研究院[119.167.246.19] [10.13.22.187] ...
+SSH connection established!
+taskref name:scp:cdn-fds.jar
+scp put: from= /home/harley/workspaces/java/java/cdn-fds/target/cdn-fds.jar ,to=/usr/share/tomcat/webapps/cdn-fds/WEB-INF/lib/ ... success!
+taskref name:restart-tomcat
+run command: /usr/share/tomcat/bin/restart.pl
+stopping tomcat ...
+starting tomcat ... 
+taskref name:show-fds-version
+run command: /usr/share/jdk1.6.0_14/bin/java -classpath :/usr/share/tomcat/webapps/cdn-fds/WEB-INF/lib/cdn-fds.jar com.vianet.cdn.fds.core.Version
+CDN-FDS version: 2.07
+
+try to connect to 联想研究院[119.167.246.120] [10.12.12.120] ...
+SSH connection established!
+taskref name:scp:cdn-fds.jar
+scp put: from= /home/harley/workspaces/java/java/cdn-fds/target/cdn-fds.jar ,to=/usr/share/tomcat/webapps/cdn-fds/WEB-INF/lib/ ... success!
+taskref name:restart-tomcat
+run command: /usr/share/tomcat/bin/restart.pl
+stopping tomcat ...
+starting tomcat ... 
+taskref name:show-fds-version
+run command: /usr/share/jdk1.6.0_14/bin/java -classpath :/usr/share/tomcat/webapps/cdn-fds/WEB-INF/lib/cdn-fds.jar com.vianet.cdn.fds.core.Version
+CDN-FDS version: 2.07
+
+try to connect to 联想研究院[119.167.246.153] [10.12.12.153] ...
+SSH connection established!
+taskref name:scp:cdn-fds.jar
+scp put: from= /home/harley/workspaces/java/java/cdn-fds/target/cdn-fds.jar ,to=/usr/share/tomcat/webapps/cdn-fds/WEB-INF/lib/ ... success!
+taskref name:restart-tomcat
+run command: /usr/share/tomcat/bin/restart.pl
+stopping tomcat ...
+starting tomcat ... 
+taskref name:show-fds-version
+run command: /usr/share/jdk1.6.0_14/bin/java -classpath :/usr/share/tomcat/webapps/cdn-fds/WEB-INF/lib/cdn-fds.jar com.vianet.cdn.fds.core.Version
+CDN-FDS version: 2.07
+
+try to connect to 联想研究院[113.6.255.77] [10.12.11.186] ...
+SSH connection established!
+taskref name:scp:cdn-fds.jar
+scp put: from= /home/harley/workspaces/java/java/cdn-fds/target/cdn-fds.jar ,to=/usr/share/tomcat/webapps/cdn-fds/WEB-INF/lib/ ... success!
+taskref name:restart-tomcat
+run command: /usr/share/tomcat/bin/restart.pl
+stopping tomcat ...
+starting tomcat ... 
+taskref name:show-fds-version
+run command: /usr/share/jdk1.6.0_14/bin/java -classpath :/usr/share/tomcat/webapps/cdn-fds/WEB-INF/lib/cdn-fds.jar com.vianet.cdn.fds.core.Version
+CDN-FDS version: 2.07
+
+try to connect to 联想研究院[113.6.255.121] [10.13.13.171] ...
+SSH connection established!
+taskref name:scp:cdn-fds.jar
+scp put: from= /home/harley/workspaces/java/java/cdn-fds/target/cdn-fds.jar ,to=/usr/share/tomcat/webapps/cdn-fds/WEB-INF/lib/ ... success!
+taskref name:restart-tomcat
+run command: /usr/share/tomcat/bin/restart.pl
+stopping tomcat ...
+starting tomcat ... 
+taskref name:show-fds-version
+run command: /usr/share/jdk1.6.0_14/bin/java -classpath :/usr/share/tomcat/webapps/cdn-fds/WEB-INF/lib/cdn-fds.jar com.vianet.cdn.fds.core.Version
+CDN-FDS version: 2.07
+
+try to connect to 联想研究院[113.6.255.138] [10.13.13.188] ...
+SSH connection established!
+taskref name:scp:cdn-fds.jar
+scp put: from= /home/harley/workspaces/java/java/cdn-fds/target/cdn-fds.jar ,to=/usr/share/tomcat/webapps/cdn-fds/WEB-INF/lib/ ... success!
+taskref name:restart-tomcat
+run command: /usr/share/tomcat/bin/restart.pl
+stopping tomcat ...
+starting tomcat ... 
+taskref name:show-fds-version
+run command: /usr/share/jdk1.6.0_14/bin/java -classpath :/usr/share/tomcat/webapps/cdn-fds/WEB-INF/lib/cdn-fds.jar com.vianet.cdn.fds.core.Version
+CDN-FDS version: 2.07
+
+try to connect to 联想研究院[121.14.225.107] [10.13.26.72] ...
+SSH connection established!
+taskref name:scp:cdn-fds.jar
+scp put: from= /home/harley/workspaces/java/java/cdn-fds/target/cdn-fds.jar ,to=/usr/share/tomcat/webapps/cdn-fds/WEB-INF/lib/ ... success!
+taskref name:restart-tomcat
+run command: /usr/share/tomcat/bin/restart.pl
+stopping tomcat ...
+starting tomcat ... 
+taskref name:show-fds-version
+run command: /usr/share/jdk1.6.0_14/bin/java -classpath :/usr/share/tomcat/webapps/cdn-fds/WEB-INF/lib/cdn-fds.jar com.vianet.cdn.fds.core.Version
+CDN-FDS version: 2.07
+
+try to connect to 联想研究院[121.14.225.173] [10.13.21.173] ...
+SSH connection established!
+taskref name:scp:cdn-fds.jar
+scp put: from= /home/harley/workspaces/java/java/cdn-fds/target/cdn-fds.jar ,to=/usr/share/tomcat/webapps/cdn-fds/WEB-INF/lib/ ... success!
+taskref name:restart-tomcat
+run command: /usr/share/tomcat/bin/restart.pl
+stopping tomcat ...
+starting tomcat ... 
+taskref name:show-fds-version
+run command: /usr/share/jdk1.6.0_14/bin/java -classpath :/usr/share/tomcat/webapps/cdn-fds/WEB-INF/lib/cdn-fds.jar com.vianet.cdn.fds.core.Version
+CDN-FDS version: 2.07
+
+try to connect to 联想研究院[121.14.225.190] [10.13.21.190] ...
+SSH connection established!
+taskref name:scp:cdn-fds.jar
+scp put: from= /home/harley/workspaces/java/java/cdn-fds/target/cdn-fds.jar ,to=/usr/share/tomcat/webapps/cdn-fds/WEB-INF/lib/ ... success!
+taskref name:restart-tomcat
+run command: /usr/share/tomcat/bin/restart.pl
+stopping tomcat ...
+starting tomcat ... 
+taskref name:show-fds-version
+run command: /usr/share/jdk1.6.0_14/bin/java -classpath :/usr/share/tomcat/webapps/cdn-fds/WEB-INF/lib/cdn-fds.jar com.vianet.cdn.fds.core.Version
+CDN-FDS version: 2.07
+
+try to connect to 联想研究院[121.10.127.141] [10.13.19.141] ...
+SSH connection established!
+taskref name:scp:cdn-fds.jar
+scp put: from= /home/harley/workspaces/java/java/cdn-fds/target/cdn-fds.jar ,to=/usr/share/tomcat/webapps/cdn-fds/WEB-INF/lib/ ... success!
+taskref name:restart-tomcat
+run command: /usr/share/tomcat/bin/restart.pl
+stopping tomcat ...
+starting tomcat ... 
+taskref name:show-fds-version
+run command: /usr/share/jdk1.6.0_14/bin/java -classpath :/usr/share/tomcat/webapps/cdn-fds/WEB-INF/lib/cdn-fds.jar com.vianet.cdn.fds.core.Version
+CDN-FDS version: 2.07
+
+try to connect to 联想研究院[121.10.127.114] [10.13.19.87] ...
+SSH connection established!
+taskref name:scp:cdn-fds.jar
+scp put: from= /home/harley/workspaces/java/java/cdn-fds/target/cdn-fds.jar ,to=/usr/share/tomcat/webapps/cdn-fds/WEB-INF/lib/ ... success!
+taskref name:restart-tomcat
+run command: /usr/share/tomcat/bin/restart.pl
+stopping tomcat ...
+starting tomcat ... 
+taskref name:show-fds-version
+run command: /usr/share/jdk1.6.0_14/bin/java -classpath :/usr/share/tomcat/webapps/cdn-fds/WEB-INF/lib/cdn-fds.jar com.vianet.cdn.fds.core.Version
+CDN-FDS version: 2.07
+
+try to connect to 联想研究院[59.173.16.180] [10.13.25.132] ...
+SSH connection established!
+taskref name:scp:cdn-fds.jar
+scp put: from= /home/harley/workspaces/java/java/cdn-fds/target/cdn-fds.jar ,to=/usr/share/tomcat/webapps/cdn-fds/WEB-INF/lib/ ... success!
+taskref name:restart-tomcat
+run command: /usr/share/tomcat/bin/restart.pl
+stopping tomcat ...
+starting tomcat ... 
+taskref name:show-fds-version
+run command: /usr/share/jdk1.6.0_14/bin/java -classpath :/usr/share/tomcat/webapps/cdn-fds/WEB-INF/lib/cdn-fds.jar com.vianet.cdn.fds.core.Version
+CDN-FDS version: 2.07
+
+try to connect to 联想研究院[59.173.16.201] [10.13.25.153] ...
+SSH connection established!
+taskref name:scp:cdn-fds.jar
+scp put: from= /home/harley/workspaces/java/java/cdn-fds/target/cdn-fds.jar ,to=/usr/share/tomcat/webapps/cdn-fds/WEB-INF/lib/ ... success!
+taskref name:restart-tomcat
+run command: /usr/share/tomcat/bin/restart.pl
+stopping tomcat ...
+starting tomcat ... 
+taskref name:show-fds-version
+run command: /usr/share/jdk1.6.0_14/bin/java -classpath :/usr/share/tomcat/webapps/cdn-fds/WEB-INF/lib/cdn-fds.jar com.vianet.cdn.fds.core.Version
+CDN-FDS version: 2.07
+
+try to connect to 联想研究院[59.173.16.246] [10.13.25.124] ...
+SSH connection established!
+taskref name:scp:cdn-fds.jar
+scp put: from= /home/harley/workspaces/java/java/cdn-fds/target/cdn-fds.jar ,to=/usr/share/tomcat/webapps/cdn-fds/WEB-INF/lib/ ... success!
+taskref name:restart-tomcat
+run command: /usr/share/tomcat/bin/restart.pl
+stopping tomcat ...
+starting tomcat ... 
+taskref name:show-fds-version
+run command: /usr/share/jdk1.6.0_14/bin/java -classpath :/usr/share/tomcat/webapps/cdn-fds/WEB-INF/lib/cdn-fds.jar com.vianet.cdn.fds.core.Version
+CDN-FDS version: 2.07
+
+try to connect to 联想研究院[118.122.176.242] [10.13.17.107] ...
+SSH connection established!
+taskref name:scp:cdn-fds.jar
+scp put: from= /home/harley/workspaces/java/java/cdn-fds/target/cdn-fds.jar ,to=/usr/share/tomcat/webapps/cdn-fds/WEB-INF/lib/ ... success!
+taskref name:restart-tomcat
+run command: /usr/share/tomcat/bin/restart.pl
+stopping tomcat ...
+starting tomcat ... 
+taskref name:show-fds-version
+run command: /usr/share/jdk1.6.0_14/bin/java -classpath :/usr/share/tomcat/webapps/cdn-fds/WEB-INF/lib/cdn-fds.jar com.vianet.cdn.fds.core.Version
+CDN-FDS version: 2.07
+
+try to connect to 联想研究院[118.122.176.243] [10.13.17.108] ...
+SSH connection established!
+taskref name:scp:cdn-fds.jar
+scp put: from= /home/harley/workspaces/java/java/cdn-fds/target/cdn-fds.jar ,to=/usr/share/tomcat/webapps/cdn-fds/WEB-INF/lib/ ... success!
+taskref name:restart-tomcat
+run command: /usr/share/tomcat/bin/restart.pl
+stopping tomcat ...
+starting tomcat ... 
+taskref name:show-fds-version
+run command: /usr/share/jdk1.6.0_14/bin/java -classpath :/usr/share/tomcat/webapps/cdn-fds/WEB-INF/lib/cdn-fds.jar com.vianet.cdn.fds.core.Version
+CDN-FDS version: 2.07
+
+try to connect to 联想研究院[118.122.176.244] [10.13.17.109] ...
+Couldn't establish SSH connection: unable to establish master SSH connection: ssh master login timed out
+
+try to connect to 联想研究院[60.191.252.159] [10.13.24.71] ...
+SSH connection established!
+taskref name:scp:cdn-fds.jar
+scp put: from= /home/harley/workspaces/java/java/cdn-fds/target/cdn-fds.jar ,to=/usr/share/tomcat/webapps/cdn-fds/WEB-INF/lib/ ... success!
+taskref name:restart-tomcat
+run command: /usr/share/tomcat/bin/restart.pl
+stopping tomcat ...
+starting tomcat ... 
+taskref name:show-fds-version
+run command: /usr/share/jdk1.6.0_14/bin/java -classpath :/usr/share/tomcat/webapps/cdn-fds/WEB-INF/lib/cdn-fds.jar com.vianet.cdn.fds.core.Version
+CDN-FDS version: 2.07
+
+try to connect to 联想研究院[60.191.252.160] [10.13.24.72] ...
+SSH connection established!
+taskref name:scp:cdn-fds.jar
+scp put: from= /home/harley/workspaces/java/java/cdn-fds/target/cdn-fds.jar ,to=/usr/share/tomcat/webapps/cdn-fds/WEB-INF/lib/ ... success!
+taskref name:restart-tomcat
+run command: /usr/share/tomcat/bin/restart.pl
+stopping tomcat ...
+starting tomcat ... 
+taskref name:show-fds-version
+run command: /usr/share/jdk1.6.0_14/bin/java -classpath :/usr/share/tomcat/webapps/cdn-fds/WEB-INF/lib/cdn-fds.jar com.vianet.cdn.fds.core.Version
+CDN-FDS version: 2.07
+
+try to connect to 联想研究院[60.191.252.161] [10.13.24.73] ...
+SSH connection established!
+taskref name:scp:cdn-fds.jar
+scp put: from= /home/harley/workspaces/java/java/cdn-fds/target/cdn-fds.jar ,to=/usr/share/tomcat/webapps/cdn-fds/WEB-INF/lib/ ... success!
+taskref name:restart-tomcat
+run command: /usr/share/tomcat/bin/restart.pl
+stopping tomcat ...
+starting tomcat ... 
+taskref name:show-fds-version
+run command: /usr/share/jdk1.6.0_14/bin/java -classpath :/usr/share/tomcat/webapps/cdn-fds/WEB-INF/lib/cdn-fds.jar com.vianet.cdn.fds.core.Version
+CDN-FDS version: 2.07
+
+try to connect to 青岛TS1 [10.13.22.183] ...
+SSH connection established!
+taskref name:scp:cdn-fds.jar
+scp put: from= /home/harley/workspaces/java/java/cdn-fds/target/cdn-fds.jar ,to=/usr/share/tomcat/webapps/cdn-fds/WEB-INF/lib/ ... success!
+taskref name:restart-tomcat
+run command: /usr/share/tomcat/bin/restart.pl
+stopping tomcat ...
+starting tomcat ... 
+taskref name:show-fds-version
+run command: /usr/share/jdk1.6.0_14/bin/java -classpath :/usr/share/tomcat/webapps/cdn-fds/WEB-INF/lib/cdn-fds.jar com.vianet.cdn.fds.core.Version
+CDN-FDS version: 2.07
+
+try to connect to 青岛TS1 [10.13.22.185] ...
+SSH connection established!
+taskref name:scp:cdn-fds.jar
+scp put: from= /home/harley/workspaces/java/java/cdn-fds/target/cdn-fds.jar ,to=/usr/share/tomcat/webapps/cdn-fds/WEB-INF/lib/ ... success!
+taskref name:restart-tomcat
+run command: /usr/share/tomcat/bin/restart.pl
+stopping tomcat ...
+starting tomcat ... 
+taskref name:show-fds-version
+run command: /usr/share/jdk1.6.0_14/bin/java -classpath :/usr/share/tomcat/webapps/cdn-fds/WEB-INF/lib/cdn-fds.jar com.vianet.cdn.fds.core.Version
+CDN-FDS version: 2.07
+
+try to connect to 青岛TS2 [10.12.12.117] ...
+SSH connection established!
+taskref name:scp:cdn-fds.jar
+scp put: from= /home/harley/workspaces/java/java/cdn-fds/target/cdn-fds.jar ,to=/usr/share/tomcat/webapps/cdn-fds/WEB-INF/lib/ ... success!
+taskref name:restart-tomcat
+run command: /usr/share/tomcat/bin/restart.pl
+stopping tomcat ...
+starting tomcat ... 
+taskref name:show-fds-version
+run command: /usr/share/jdk1.6.0_14/bin/java -classpath :/usr/share/tomcat/webapps/cdn-fds/WEB-INF/lib/cdn-fds.jar com.vianet.cdn.fds.core.Version
+CDN-FDS version: 2.07
+
+try to connect to 青岛TS2 [10.12.12.122] ...
+SSH connection established!
+taskref name:scp:cdn-fds.jar
+scp put: from= /home/harley/workspaces/java/java/cdn-fds/target/cdn-fds.jar ,to=/usr/share/tomcat/webapps/cdn-fds/WEB-INF/lib/ ... success!
+taskref name:restart-tomcat
+run command: /usr/share/tomcat/bin/restart.pl
+stopping tomcat ...
+starting tomcat ... 
+taskref name:show-fds-version
+run command: /usr/share/jdk1.6.0_14/bin/java -classpath :/usr/share/tomcat/webapps/cdn-fds/WEB-INF/lib/cdn-fds.jar com.vianet.cdn.fds.core.Version
+CDN-FDS version: 2.07
+
+try to connect to 青岛TS2 [10.12.12.164] ...
+SSH connection established!
+taskref name:scp:cdn-fds.jar
+scp put: from= /home/harley/workspaces/java/java/cdn-fds/target/cdn-fds.jar ,to=/usr/share/tomcat/webapps/cdn-fds/WEB-INF/lib/ ... success!
+taskref name:restart-tomcat
+run command: /usr/share/tomcat/bin/restart.pl
+stopping tomcat ...
+starting tomcat ... 
+taskref name:show-fds-version
+run command: /usr/share/jdk1.6.0_14/bin/java -classpath :/usr/share/tomcat/webapps/cdn-fds/WEB-INF/lib/cdn-fds.jar com.vianet.cdn.fds.core.Version
+CDN-FDS version: 2.07
+
+try to connect to 青岛TS2 [10.12.12.134] ...
+SSH connection established!
+taskref name:scp:cdn-fds.jar
+scp put: from= /home/harley/workspaces/java/java/cdn-fds/target/cdn-fds.jar ,to=/usr/share/tomcat/webapps/cdn-fds/WEB-INF/lib/ ... success!
+taskref name:restart-tomcat
+run command: /usr/share/tomcat/bin/restart.pl
+stopping tomcat ...
+starting tomcat ... 
+taskref name:show-fds-version
+run command: /usr/share/jdk1.6.0_14/bin/java -classpath :/usr/share/tomcat/webapps/cdn-fds/WEB-INF/lib/cdn-fds.jar com.vianet.cdn.fds.core.Version
+CDN-FDS version: 2.07
+
+try to connect to 哈尔滨TS1 [10.12.11.114] ...
+SSH connection established!
+taskref name:scp:cdn-fds.jar
+scp put: from= /home/harley/workspaces/java/java/cdn-fds/target/cdn-fds.jar ,to=/usr/share/tomcat/webapps/cdn-fds/WEB-INF/lib/ ... success!
+taskref name:restart-tomcat
+run command: /usr/share/tomcat/bin/restart.pl
+stopping tomcat ...
+starting tomcat ... 
+taskref name:show-fds-version
+run command: /usr/share/jdk1.6.0_14/bin/java -classpath :/usr/share/tomcat/webapps/cdn-fds/WEB-INF/lib/cdn-fds.jar com.vianet.cdn.fds.core.Version
+CDN-FDS version: 2.07
+
+try to connect to 哈尔滨TS1 [10.12.11.136] ...
+SSH connection established!
+taskref name:scp:cdn-fds.jar
+scp put: from= /home/harley/workspaces/java/java/cdn-fds/target/cdn-fds.jar ,to=/usr/share/tomcat/webapps/cdn-fds/WEB-INF/lib/ ... success!
+taskref name:restart-tomcat
+run command: /usr/share/tomcat/bin/restart.pl
+stopping tomcat ...
+starting tomcat ... 
+taskref name:show-fds-version
+run command: /usr/share/jdk1.6.0_14/bin/java -classpath :/usr/share/tomcat/webapps/cdn-fds/WEB-INF/lib/cdn-fds.jar com.vianet.cdn.fds.core.Version
+CDN-FDS version: 2.07
+
+try to connect to 哈尔滨TS1 [10.12.11.153] ...
+SSH connection established!
+taskref name:scp:cdn-fds.jar
+scp put: from= /home/harley/workspaces/java/java/cdn-fds/target/cdn-fds.jar ,to=/usr/share/tomcat/webapps/cdn-fds/WEB-INF/lib/ ... success!
+taskref name:restart-tomcat
+run command: /usr/share/tomcat/bin/restart.pl
+stopping tomcat ...
+starting tomcat ... 
+taskref name:show-fds-version
+run command: /usr/share/jdk1.6.0_14/bin/java -classpath :/usr/share/tomcat/webapps/cdn-fds/WEB-INF/lib/cdn-fds.jar com.vianet.cdn.fds.core.Version
+CDN-FDS version: 2.07
+
+try to connect to 汕头TS1 [10.13.21.135] ...
+SSH connection established!
+taskref name:scp:cdn-fds.jar
+scp put: from= /home/harley/workspaces/java/java/cdn-fds/target/cdn-fds.jar ,to=/usr/share/tomcat/webapps/cdn-fds/WEB-INF/lib/ ... success!
+taskref name:restart-tomcat
+run command: /usr/share/tomcat/bin/restart.pl
+stopping tomcat ...
+starting tomcat ... 
+taskref name:show-fds-version
+run command: /usr/share/jdk1.6.0_14/bin/java -classpath :/usr/share/tomcat/webapps/cdn-fds/WEB-INF/lib/cdn-fds.jar com.vianet.cdn.fds.core.Version
+CDN-FDS version: 2.07
+
+try to connect to 汕头TS1 [10.13.21.169] ...
+SSH connection established!
+taskref name:scp:cdn-fds.jar
+scp put: from= /home/harley/workspaces/java/java/cdn-fds/target/cdn-fds.jar ,to=/usr/share/tomcat/webapps/cdn-fds/WEB-INF/lib/ ... success!
+taskref name:restart-tomcat
+run command: /usr/share/tomcat/bin/restart.pl
+stopping tomcat ...
+starting tomcat ... 
+taskref name:show-fds-version
+run command: /usr/share/jdk1.6.0_14/bin/java -classpath :/usr/share/tomcat/webapps/cdn-fds/WEB-INF/lib/cdn-fds.jar com.vianet.cdn.fds.core.Version
+CDN-FDS version: 2.07
+
+try to connect to 汕头TS1 [10.13.21.179] ...
+SSH connection established!
+taskref name:scp:cdn-fds.jar
+scp put: from= /home/harley/workspaces/java/java/cdn-fds/target/cdn-fds.jar ,to=/usr/share/tomcat/webapps/cdn-fds/WEB-INF/lib/ ... success!
+taskref name:restart-tomcat
+run command: /usr/share/tomcat/bin/restart.pl
+stopping tomcat ...
+starting tomcat ... 
+taskref name:show-fds-version
+run command: /usr/share/jdk1.6.0_14/bin/java -classpath :/usr/share/tomcat/webapps/cdn-fds/WEB-INF/lib/cdn-fds.jar com.vianet.cdn.fds.core.Version
+CDN-FDS version: 2.07
+
+try to connect to 汕头TS1 [10.13.21.180] ...
+SSH connection established!
+taskref name:scp:cdn-fds.jar
+scp put: from= /home/harley/workspaces/java/java/cdn-fds/target/cdn-fds.jar ,to=/usr/share/tomcat/webapps/cdn-fds/WEB-INF/lib/ ... success!
+taskref name:restart-tomcat
+run command: /usr/share/tomcat/bin/restart.pl
+stopping tomcat ...
+starting tomcat ... 
+taskref name:show-fds-version
+run command: /usr/share/jdk1.6.0_14/bin/java -classpath :/usr/share/tomcat/webapps/cdn-fds/WEB-INF/lib/cdn-fds.jar com.vianet.cdn.fds.core.Version
+CDN-FDS version: 2.07
+
+try to connect to 汕头TS2 [10.12.17.134] ...
+SSH connection established!
+taskref name:scp:cdn-fds.jar
+scp put: from= /home/harley/workspaces/java/java/cdn-fds/target/cdn-fds.jar ,to=/usr/share/tomcat/webapps/cdn-fds/WEB-INF/lib/ ... success!
+taskref name:restart-tomcat
+run command: /usr/share/tomcat/bin/restart.pl
+stopping tomcat ...
+starting tomcat ... 
+taskref name:show-fds-version
+run command: /usr/share/jdk1.6.0_14/bin/java -classpath :/usr/share/tomcat/webapps/cdn-fds/WEB-INF/lib/cdn-fds.jar com.vianet.cdn.fds.core.Version
+CDN-FDS version: 2.07
+
+try to connect to 汕头TS2 [10.12.17.162] ...
+SSH connection established!
+taskref name:scp:cdn-fds.jar
+scp put: from= /home/harley/workspaces/java/java/cdn-fds/target/cdn-fds.jar ,to=/usr/share/tomcat/webapps/cdn-fds/WEB-INF/lib/ ... success!
+taskref name:restart-tomcat
+run command: /usr/share/tomcat/bin/restart.pl
+stopping tomcat ...
+starting tomcat ... 
+taskref name:show-fds-version
+run command: /usr/share/jdk1.6.0_14/bin/java -classpath :/usr/share/tomcat/webapps/cdn-fds/WEB-INF/lib/cdn-fds.jar com.vianet.cdn.fds.core.Version
+CDN-FDS version: 2.07
+
+try to connect to 湛江TS1 [10.13.19.219] ...
+SSH connection established!
+taskref name:scp:cdn-fds.jar
+scp put: from= /home/harley/workspaces/java/java/cdn-fds/target/cdn-fds.jar ,to=/usr/share/tomcat/webapps/cdn-fds/WEB-INF/lib/ ... success!
+taskref name:restart-tomcat
+run command: /usr/share/tomcat/bin/restart.pl
+stopping tomcat ...
+starting tomcat ... 
+taskref name:show-fds-version
+run command: /usr/share/jdk1.6.0_14/bin/java -classpath :/usr/share/tomcat/webapps/cdn-fds/WEB-INF/lib/cdn-fds.jar com.vianet.cdn.fds.core.Version
+CDN-FDS version: 2.07
+
+try to connect to 湛江TS1 [10.13.19.148] ...
+SSH connection established!
+taskref name:scp:cdn-fds.jar
+scp put: from= /home/harley/workspaces/java/java/cdn-fds/target/cdn-fds.jar ,to=/usr/share/tomcat/webapps/cdn-fds/WEB-INF/lib/ ... success!
+taskref name:restart-tomcat
+run command: /usr/share/tomcat/bin/restart.pl
+stopping tomcat ...
+starting tomcat ... 
+taskref name:show-fds-version
+run command: /usr/share/jdk1.6.0_14/bin/java -classpath :/usr/share/tomcat/webapps/cdn-fds/WEB-INF/lib/cdn-fds.jar com.vianet.cdn.fds.core.Version
+CDN-FDS version: 2.07
+
+try to connect to 湛江TS1 [10.13.19.168] ...
+SSH connection established!
+taskref name:scp:cdn-fds.jar
+scp put: from= /home/harley/workspaces/java/java/cdn-fds/target/cdn-fds.jar ,to=/usr/share/tomcat/webapps/cdn-fds/WEB-INF/lib/ ... success!
+taskref name:restart-tomcat
+run command: /usr/share/tomcat/bin/restart.pl
+stopping tomcat ...
+starting tomcat ... 
+taskref name:show-fds-version
+run command: /usr/share/jdk1.6.0_14/bin/java -classpath :/usr/share/tomcat/webapps/cdn-fds/WEB-INF/lib/cdn-fds.jar com.vianet.cdn.fds.core.Version
+CDN-FDS version: 2.07
+
+try to connect to 湛江TS2 [10.12.15.115] ...
+SSH connection established!
+taskref name:scp:cdn-fds.jar
+scp put: from= /home/harley/workspaces/java/java/cdn-fds/target/cdn-fds.jar ,to=/usr/share/tomcat/webapps/cdn-fds/WEB-INF/lib/ ... success!
+taskref name:restart-tomcat
+run command: /usr/share/tomcat/bin/restart.pl
+stopping tomcat ...
+starting tomcat ... 
+taskref name:show-fds-version
+run command: /usr/share/jdk1.6.0_14/bin/java -classpath :/usr/share/tomcat/webapps/cdn-fds/WEB-INF/lib/cdn-fds.jar com.vianet.cdn.fds.core.Version
+CDN-FDS version: 2.07
+
+try to connect to 湛江TS2 [10.13.19.190] ...
+SSH connection established!
+taskref name:scp:cdn-fds.jar
+scp put: from= /home/harley/workspaces/java/java/cdn-fds/target/cdn-fds.jar ,to=/usr/share/tomcat/webapps/cdn-fds/WEB-INF/lib/ ... success!
+taskref name:restart-tomcat
+run command: /usr/share/tomcat/bin/restart.pl
+stopping tomcat ...
+starting tomcat ... 
+taskref name:show-fds-version
+run command: /usr/share/jdk1.6.0_14/bin/java -classpath :/usr/share/tomcat/webapps/cdn-fds/WEB-INF/lib/cdn-fds.jar com.vianet.cdn.fds.core.Version
+CDN-FDS version: 2.07
+
+try to connect to 湛江SP1 [10.13.19.71] ...
+SSH connection established!
+taskref name:scp:cdn-fds.jar
+scp put: from= /home/harley/workspaces/java/java/cdn-fds/target/cdn-fds.jar ,to=/usr/share/tomcat/webapps/cdn-fds/WEB-INF/lib/ ... success!
+taskref name:restart-tomcat
+run command: /usr/share/tomcat/bin/restart.pl
+stopping tomcat ...
+starting tomcat ... 
+taskref name:show-fds-version
+run command: /usr/share/jdk1.6.0_14/bin/java -classpath :/usr/share/tomcat/webapps/cdn-fds/WEB-INF/lib/cdn-fds.jar com.vianet.cdn.fds.core.Version
+CDN-FDS version: 2.07
+
+try to connect to 湛江SP2 [10.13.19.192] ...
+SSH connection established!
+taskref name:scp:cdn-fds.jar
+scp put: from= /home/harley/workspaces/java/java/cdn-fds/target/cdn-fds.jar ,to=/usr/share/tomcat/webapps/cdn-fds/WEB-INF/lib/ ... success!
+taskref name:restart-tomcat
+run command: /usr/share/tomcat/bin/restart.pl
+stopping tomcat ...
+starting tomcat ... 
+taskref name:show-fds-version
+run command: /usr/share/jdk1.6.0_14/bin/java -classpath :/usr/share/tomcat/webapps/cdn-fds/WEB-INF/lib/cdn-fds.jar com.vianet.cdn.fds.core.Version
+CDN-FDS version: 2.07
+
+try to connect to 湛江SP2 [10.13.19.194] ...
+SSH connection established!
+taskref name:scp:cdn-fds.jar
+scp put: from= /home/harley/workspaces/java/java/cdn-fds/target/cdn-fds.jar ,to=/usr/share/tomcat/webapps/cdn-fds/WEB-INF/lib/ ... success!
+taskref name:restart-tomcat
+run command: /usr/share/tomcat/bin/restart.pl
+stopping tomcat ...
+starting tomcat ... 
+taskref name:show-fds-version
+run command: /usr/share/jdk1.6.0_14/bin/java -classpath :/usr/share/tomcat/webapps/cdn-fds/WEB-INF/lib/cdn-fds.jar com.vianet.cdn.fds.core.Version
+CDN-FDS version: 2.07
+
+try to connect to 湛江SP2 [10.13.19.197] ...
+SSH connection established!
+taskref name:scp:cdn-fds.jar
+scp put: from= /home/harley/workspaces/java/java/cdn-fds/target/cdn-fds.jar ,to=/usr/share/tomcat/webapps/cdn-fds/WEB-INF/lib/ ... success!
+taskref name:restart-tomcat
+run command: /usr/share/tomcat/bin/restart.pl
+stopping tomcat ...
+starting tomcat ... 
+taskref name:show-fds-version
+run command: /usr/share/jdk1.6.0_14/bin/java -classpath :/usr/share/tomcat/webapps/cdn-fds/WEB-INF/lib/cdn-fds.jar com.vianet.cdn.fds.core.Version
+CDN-FDS version: 2.07
+
+try to connect to 湛江SP2 [10.13.19.199] ...
+SSH connection established!
+taskref name:scp:cdn-fds.jar
+scp put: from= /home/harley/workspaces/java/java/cdn-fds/target/cdn-fds.jar ,to=/usr/share/tomcat/webapps/cdn-fds/WEB-INF/lib/ ... success!
+taskref name:restart-tomcat
+run command: /usr/share/tomcat/bin/restart.pl
+stopping tomcat ...
+starting tomcat ... 
+taskref name:show-fds-version
+run command: /usr/share/jdk1.6.0_14/bin/java -classpath :/usr/share/tomcat/webapps/cdn-fds/WEB-INF/lib/cdn-fds.jar com.vianet.cdn.fds.core.Version
+CDN-FDS version: 2.07
+
+try to connect to 遂宁TS1 [10.12.18.183] ...
+SSH connection established!
+taskref name:scp:cdn-fds.jar
+scp put: from= /home/harley/workspaces/java/java/cdn-fds/target/cdn-fds.jar ,to=/usr/share/tomcat/webapps/cdn-fds/WEB-INF/lib/ ... success!
+taskref name:restart-tomcat
+run command: /usr/share/tomcat/bin/restart.pl
+stopping tomcat ...
+starting tomcat ... 
+taskref name:show-fds-version
+run command: /usr/share/jdk1.6.0_14/bin/java -classpath :/usr/share/tomcat/webapps/cdn-fds/WEB-INF/lib/cdn-fds.jar com.vianet.cdn.fds.core.Version
+CDN-FDS version: 2.07
+
+try to connect to 遂宁TS1 [10.13.17.132] ...
+SSH connection established!
+taskref name:scp:cdn-fds.jar
+scp put: from= /home/harley/workspaces/java/java/cdn-fds/target/cdn-fds.jar ,to=/usr/share/tomcat/webapps/cdn-fds/WEB-INF/lib/ ... success!
+taskref name:restart-tomcat
+run command: /usr/share/tomcat/bin/restart.pl
+stopping tomcat ...
+starting tomcat ... 
+taskref name:show-fds-version
+run command: /usr/share/jdk1.6.0_14/bin/java -classpath :/usr/share/tomcat/webapps/cdn-fds/WEB-INF/lib/cdn-fds.jar com.vianet.cdn.fds.core.Version
+CDN-FDS version: 2.07
+
+try to connect to 武汉TS1 [10.13.25.154] ...
+SSH connection established!
+taskref name:scp:cdn-fds.jar
+scp put: from= /home/harley/workspaces/java/java/cdn-fds/target/cdn-fds.jar ,to=/usr/share/tomcat/webapps/cdn-fds/WEB-INF/lib/ ... success!
+taskref name:restart-tomcat
+run command: /usr/share/tomcat/bin/restart.pl
+stopping tomcat ...
+starting tomcat ... 
+taskref name:show-fds-version
+run command: /usr/share/jdk1.6.0_14/bin/java -classpath :/usr/share/tomcat/webapps/cdn-fds/WEB-INF/lib/cdn-fds.jar com.vianet.cdn.fds.core.Version
+CDN-FDS version: 2.07
+
+try to connect to 武汉TS1 [10.13.25.182] ...
+Couldn't establish SSH connection: unable to establish master SSH connection: ssh master exited unexpectedly
+
+try to connect to 金华TS1 [10.13.24.145] ...
+SSH connection established!
+taskref name:scp:cdn-fds.jar
+scp put: from= /home/harley/workspaces/java/java/cdn-fds/target/cdn-fds.jar ,to=/usr/share/tomcat/webapps/cdn-fds/WEB-INF/lib/ ... success!
+taskref name:restart-tomcat
+run command: /usr/share/tomcat/bin/restart.pl
+stopping tomcat ...
+starting tomcat ... 
+taskref name:show-fds-version
+run command: /usr/share/jdk1.6.0_14/bin/java -classpath :/usr/share/tomcat/webapps/cdn-fds/WEB-INF/lib/cdn-fds.jar com.vianet.cdn.fds.core.Version
+CDN-FDS version: 2.07
+
+try to connect to 金华TS1 [10.13.24.186] ...
+SSH connection established!
+taskref name:scp:cdn-fds.jar
+scp put: from= /home/harley/workspaces/java/java/cdn-fds/target/cdn-fds.jar ,to=/usr/share/tomcat/webapps/cdn-fds/WEB-INF/lib/ ... success!
+taskref name:restart-tomcat
+run command: /usr/share/tomcat/bin/restart.pl
+stopping tomcat ...
+starting tomcat ... 
+taskref name:show-fds-version
+run command: /usr/share/jdk1.6.0_14/bin/java -classpath :/usr/share/tomcat/webapps/cdn-fds/WEB-INF/lib/cdn-fds.jar com.vianet.cdn.fds.core.Version
+CDN-FDS version: 2.07
+
+try to connect to 武汉TS1 [10.13.25.146] ...
+Couldn't establish SSH connection: unable to establish master SSH connection: ssh master exited unexpectedly
+
+try to connect to 汕头TS [10.13.26.192] ...
+SSH connection established!
+taskref name:scp:cdn-fds.jar
+scp put: from= /home/harley/workspaces/java/java/cdn-fds/target/cdn-fds.jar ,to=/usr/share/tomcat/webapps/cdn-fds/WEB-INF/lib/ ... success!
+taskref name:restart-tomcat
+run command: /usr/share/tomcat/bin/restart.pl
+stopping tomcat ...
+starting tomcat ... 
+taskref name:show-fds-version
+run command: /usr/share/jdk1.6.0_14/bin/java -classpath :/usr/share/tomcat/webapps/cdn-fds/WEB-INF/lib/cdn-fds.jar com.vianet.cdn.fds.core.Version
+CDN-FDS version: 2.07
+
+try to connect to 汕头TS [10.13.26.193] ...
+SSH connection established!
+taskref name:scp:cdn-fds.jar
+scp put: from= /home/harley/workspaces/java/java/cdn-fds/target/cdn-fds.jar ,to=/usr/share/tomcat/webapps/cdn-fds/WEB-INF/lib/ ... success!
+taskref name:restart-tomcat
+run command: /usr/share/tomcat/bin/restart.pl
+stopping tomcat ...
+starting tomcat ... 
+taskref name:show-fds-version
+run command: /usr/share/jdk1.6.0_14/bin/java -classpath :/usr/share/tomcat/webapps/cdn-fds/WEB-INF/lib/cdn-fds.jar com.vianet.cdn.fds.core.Version
+CDN-FDS version: 2.07
+
+try to connect to dl8.leaf7.qdts1.okglb.com [10.13.22.99] ...
+SSH connection established!
+taskref name:scp:cdn-fds.jar
+scp put: from= /home/harley/workspaces/java/java/cdn-fds/target/cdn-fds.jar ,to=/usr/share/tomcat/webapps/cdn-fds/WEB-INF/lib/ ... success!
+taskref name:restart-tomcat
+run command: /usr/share/tomcat/bin/restart.pl
+stopping tomcat ...
+starting tomcat ... 
+taskref name:show-fds-version
+run command: /usr/share/jdk1.6.0_14/bin/java -classpath :/usr/share/tomcat/webapps/cdn-fds/WEB-INF/lib/cdn-fds.jar com.vianet.cdn.fds.core.Version
+CDN-FDS version: 2.07
+
+try to connect to dl8.leaf1.harbts2.okglb.com [10.13.13.139] ...
+SSH connection established!
+taskref name:scp:cdn-fds.jar
+scp put: from= /home/harley/workspaces/java/java/cdn-fds/target/cdn-fds.jar ,to=/usr/share/tomcat/webapps/cdn-fds/WEB-INF/lib/ ... success!
+taskref name:restart-tomcat
+run command: /usr/share/tomcat/bin/restart.pl
+stopping tomcat ...
+starting tomcat ... 
+taskref name:show-fds-version
+run command: /usr/share/jdk1.6.0_14/bin/java -classpath :/usr/share/tomcat/webapps/cdn-fds/WEB-INF/lib/cdn-fds.jar com.vianet.cdn.fds.core.Version
+CDN-FDS version: 2.07
+
+try to connect to 汕头TS-dl10.leaf3.stts1.okglb.com [10.13.21.160] ...
+SSH connection established!
+taskref name:scp:cdn-fds.jar
+scp put: from= /home/harley/workspaces/java/java/cdn-fds/target/cdn-fds.jar ,to=/usr/share/tomcat/webapps/cdn-fds/WEB-INF/lib/ ... success!
+taskref name:restart-tomcat
+run command: /usr/share/tomcat/bin/restart.pl
+stopping tomcat ...
+starting tomcat ... 
+taskref name:show-fds-version
+run command: /usr/share/jdk1.6.0_14/bin/java -classpath :/usr/share/tomcat/webapps/cdn-fds/WEB-INF/lib/cdn-fds.jar com.vianet.cdn.fds.core.Version
+CDN-FDS version: 2.07
+
+try to connect to 湛江TS-dl8.leaf3.zjts1.okglb.com [10.13.19.159] ...
+SSH connection established!
+taskref name:scp:cdn-fds.jar
+scp put: from= /home/harley/workspaces/java/java/cdn-fds/target/cdn-fds.jar ,to=/usr/share/tomcat/webapps/cdn-fds/WEB-INF/lib/ ... success!
+taskref name:restart-tomcat
+run command: /usr/share/tomcat/bin/restart.pl
+stopping tomcat ...
+starting tomcat ... 
+taskref name:show-fds-version
+run command: /usr/share/jdk1.6.0_14/bin/java -classpath :/usr/share/tomcat/webapps/cdn-fds/WEB-INF/lib/cdn-fds.jar com.vianet.cdn.fds.core.Version
+CDN-FDS version: 2.07
+
+try to connect to 遂宁TS1-dl4.leaf1.snts1.okglb.com [10.12.18.113] ...
+SSH connection established!
+taskref name:scp:cdn-fds.jar
+scp put: from= /home/harley/workspaces/java/java/cdn-fds/target/cdn-fds.jar ,to=/usr/share/tomcat/webapps/cdn-fds/WEB-INF/lib/ ... success!
+taskref name:restart-tomcat
+run command: /usr/share/tomcat/bin/restart.pl
+stopping tomcat ...
+starting tomcat ... 
+taskref name:show-fds-version
+run command: /usr/share/jdk1.6.0_14/bin/java -classpath :/usr/share/tomcat/webapps/cdn-fds/WEB-INF/lib/cdn-fds.jar com.vianet.cdn.fds.core.Version
+CDN-FDS version: 2.07
+
+try to connect to dl1.leaf1.whdlzy1 [10.13.25.81] ...
+SSH connection established!
+taskref name:scp:cdn-fds.jar
+scp put: from= /home/harley/workspaces/java/java/cdn-fds/target/cdn-fds.jar ,to=/usr/share/tomcat/webapps/cdn-fds/WEB-INF/lib/ ... success!
+taskref name:restart-tomcat
+run command: /usr/share/tomcat/bin/restart.pl
+stopping tomcat ...
+starting tomcat ... 
+taskref name:show-fds-version
+run command: /usr/share/jdk1.6.0_14/bin/java -classpath :/usr/share/tomcat/webapps/cdn-fds/WEB-INF/lib/cdn-fds.jar com.vianet.cdn.fds.core.Version
+CDN-FDS version: 2.07
+
+try to connect to dl4.leaf1.whdlzy1 [10.13.25.82] ...
+SSH connection established!
+taskref name:scp:cdn-fds.jar
+scp put: from= /home/harley/workspaces/java/java/cdn-fds/target/cdn-fds.jar ,to=/usr/share/tomcat/webapps/cdn-fds/WEB-INF/lib/ ... success!
+taskref name:restart-tomcat
+run command: /usr/share/tomcat/bin/restart.pl
+stopping tomcat ...
+starting tomcat ... 
+taskref name:show-fds-version
+run command: /usr/share/jdk1.6.0_14/bin/java -classpath :/usr/share/tomcat/webapps/cdn-fds/WEB-INF/lib/cdn-fds.jar com.vianet.cdn.fds.core.Version
+CDN-FDS version: 2.07
+
+try to connect to dl3.leaf1.whdlzy1 [10.13.25.83] ...
+SSH connection established!
+taskref name:scp:cdn-fds.jar
+scp put: from= /home/harley/workspaces/java/java/cdn-fds/target/cdn-fds.jar ,to=/usr/share/tomcat/webapps/cdn-fds/WEB-INF/lib/ ... success!
+taskref name:restart-tomcat
+run command: /usr/share/tomcat/bin/restart.pl
+stopping tomcat ...
+starting tomcat ... 
+taskref name:show-fds-version
+run command: /usr/share/jdk1.6.0_14/bin/java -classpath :/usr/share/tomcat/webapps/cdn-fds/WEB-INF/lib/cdn-fds.jar com.vianet.cdn.fds.core.Version
+CDN-FDS version: 2.07
+
+try to connect to dl2.leaf1.whdlzy1 [10.13.25.84] ...
+SSH connection established!
+taskref name:scp:cdn-fds.jar
+scp put: from= /home/harley/workspaces/java/java/cdn-fds/target/cdn-fds.jar ,to=/usr/share/tomcat/webapps/cdn-fds/WEB-INF/lib/ ... success!
+taskref name:restart-tomcat
+run command: /usr/share/tomcat/bin/restart.pl
+stopping tomcat ...
+starting tomcat ... 
+taskref name:show-fds-version
+run command: /usr/share/jdk1.6.0_14/bin/java -classpath :/usr/share/tomcat/webapps/cdn-fds/WEB-INF/lib/cdn-fds.jar com.vianet.cdn.fds.core.Version
+CDN-FDS version: 2.07
+
+try to connect to dl4.leaf2.whdlzy1 [10.13.25.88] ...
+SSH connection established!
+taskref name:scp:cdn-fds.jar
+scp put: from= /home/harley/workspaces/java/java/cdn-fds/target/cdn-fds.jar ,to=/usr/share/tomcat/webapps/cdn-fds/WEB-INF/lib/ ... success!
+taskref name:restart-tomcat
+run command: /usr/share/tomcat/bin/restart.pl
+stopping tomcat ...
+starting tomcat ... 
+taskref name:show-fds-version
+run command: /usr/share/jdk1.6.0_14/bin/java -classpath :/usr/share/tomcat/webapps/cdn-fds/WEB-INF/lib/cdn-fds.jar com.vianet.cdn.fds.core.Version
+CDN-FDS version: 2.07
+
+try to connect to dl3.leaf2.whdlzy1 [10.13.25.87] ...
+SSH connection established!
+taskref name:scp:cdn-fds.jar
+scp put: from= /home/harley/workspaces/java/java/cdn-fds/target/cdn-fds.jar ,to=/usr/share/tomcat/webapps/cdn-fds/WEB-INF/lib/ ... success!
+taskref name:restart-tomcat
+run command: /usr/share/tomcat/bin/restart.pl
+stopping tomcat ...
+starting tomcat ... 
+taskref name:show-fds-version
+run command: /usr/share/jdk1.6.0_14/bin/java -classpath :/usr/share/tomcat/webapps/cdn-fds/WEB-INF/lib/cdn-fds.jar com.vianet.cdn.fds.core.Version
+CDN-FDS version: 2.07
+
+try to connect to dl2.leaf2.whdlzy1 [10.13.25.86] ...
+SSH connection established!
+taskref name:scp:cdn-fds.jar
+scp put: from= /home/harley/workspaces/java/java/cdn-fds/target/cdn-fds.jar ,to=/usr/share/tomcat/webapps/cdn-fds/WEB-INF/lib/ ... success!
+taskref name:restart-tomcat
+run command: /usr/share/tomcat/bin/restart.pl
+stopping tomcat ...
+starting tomcat ... 
+taskref name:show-fds-version
+run command: /usr/share/jdk1.6.0_14/bin/java -classpath :/usr/share/tomcat/webapps/cdn-fds/WEB-INF/lib/cdn-fds.jar com.vianet.cdn.fds.core.Version
+CDN-FDS version: 2.07
+
+try to connect to dl1.leaf2.whdlzy1 [10.13.25.85] ...
+SSH connection established!
+taskref name:scp:cdn-fds.jar
+scp put: from= /home/harley/workspaces/java/java/cdn-fds/target/cdn-fds.jar ,to=/usr/share/tomcat/webapps/cdn-fds/WEB-INF/lib/ ... success!
+taskref name:restart-tomcat
+run command: /usr/share/tomcat/bin/restart.pl
+stopping tomcat ...
+starting tomcat ... 
+taskref name:show-fds-version
+run command: /usr/share/jdk1.6.0_14/bin/java -classpath :/usr/share/tomcat/webapps/cdn-fds/WEB-INF/lib/cdn-fds.jar com.vianet.cdn.fds.core.Version
+CDN-FDS version: 2.07
+
+try to connect to 哈尔滨-下载 [10.12.11.38] ...
+SSH connection established!
+taskref name:scp:cdn-fds.jar
+scp put: from= /home/harley/workspaces/java/java/cdn-fds/target/cdn-fds.jar ,to=/usr/share/tomcat/webapps/cdn-fds/WEB-INF/lib/ ... success!
+taskref name:restart-tomcat
+run command: /usr/share/tomcat/bin/restart.pl
+stopping tomcat ...
+starting tomcat ... 
+taskref name:show-fds-version
+run command: /usr/share/jdk1.6.0_14/bin/java -classpath :/usr/share/tomcat/webapps/cdn-fds/WEB-INF/lib/cdn-fds.jar com.vianet.cdn.fds.core.Version
+CDN-FDS version: 2.07
+
+try to connect to 哈尔滨-下载 [10.12.11.53] ...
+SSH connection established!
+taskref name:scp:cdn-fds.jar
+scp put: from= /home/harley/workspaces/java/java/cdn-fds/target/cdn-fds.jar ,to=/usr/share/tomcat/webapps/cdn-fds/WEB-INF/lib/ ... success!
+taskref name:restart-tomcat
+run command: /usr/share/tomcat/bin/restart.pl
+stopping tomcat ...
+starting tomcat ... 
+taskref name:show-fds-version
+run command: /usr/share/jdk1.6.0_14/bin/java -classpath :/usr/share/tomcat/webapps/cdn-fds/WEB-INF/lib/cdn-fds.jar com.vianet.cdn.fds.core.Version
+CDN-FDS version: 2.07
+
+try to connect to 哈尔滨-下载 [10.12.11.52] ...
+SSH connection established!
+taskref name:scp:cdn-fds.jar
+scp put: from= /home/harley/workspaces/java/java/cdn-fds/target/cdn-fds.jar ,to=/usr/share/tomcat/webapps/cdn-fds/WEB-INF/lib/ ... success!
+taskref name:restart-tomcat
+run command: /usr/share/tomcat/bin/restart.pl
+stopping tomcat ...
+starting tomcat ... 
+taskref name:show-fds-version
+run command: /usr/share/jdk1.6.0_14/bin/java -classpath :/usr/share/tomcat/webapps/cdn-fds/WEB-INF/lib/cdn-fds.jar com.vianet.cdn.fds.core.Version
+CDN-FDS version: 2.07
+
+try to connect to 哈尔滨-下载 [10.12.11.43] ...
+SSH connection established!
+taskref name:scp:cdn-fds.jar
+scp put: from= /home/harley/workspaces/java/java/cdn-fds/target/cdn-fds.jar ,to=/usr/share/tomcat/webapps/cdn-fds/WEB-INF/lib/ ... success!
+taskref name:restart-tomcat
+run command: /usr/share/tomcat/bin/restart.pl
+stopping tomcat ...
+starting tomcat ... 
+taskref name:show-fds-version
+run command: /usr/share/jdk1.6.0_14/bin/java -classpath :/usr/share/tomcat/webapps/cdn-fds/WEB-INF/lib/cdn-fds.jar com.vianet.cdn.fds.core.Version
+CDN-FDS version: 2.07
+
+try to connect to 汕头-下载 [10.12.17.52] ...
+SSH connection established!
+taskref name:scp:cdn-fds.jar
+scp put: from= /home/harley/workspaces/java/java/cdn-fds/target/cdn-fds.jar ,to=/usr/share/tomcat/webapps/cdn-fds/WEB-INF/lib/ ... success!
+taskref name:restart-tomcat
+run command: /usr/share/tomcat/bin/restart.pl
+stopping tomcat ...
+starting tomcat ... 
+taskref name:show-fds-version
+run command: /usr/share/jdk1.6.0_14/bin/java -classpath :/usr/share/tomcat/webapps/cdn-fds/WEB-INF/lib/cdn-fds.jar com.vianet.cdn.fds.core.Version
+CDN-FDS version: 2.07
+
+try to connect to 汕头-下载 [10.12.17.47] ...
+SSH connection established!
+taskref name:scp:cdn-fds.jar
+scp put: from= /home/harley/workspaces/java/java/cdn-fds/target/cdn-fds.jar ,to=/usr/share/tomcat/webapps/cdn-fds/WEB-INF/lib/ ... success!
+taskref name:restart-tomcat
+run command: /usr/share/tomcat/bin/restart.pl
+stopping tomcat ...
+starting tomcat ... 
+taskref name:show-fds-version
+run command: /usr/share/jdk1.6.0_14/bin/java -classpath :/usr/share/tomcat/webapps/cdn-fds/WEB-INF/lib/cdn-fds.jar com.vianet.cdn.fds.core.Version
+CDN-FDS version: 2.07
+
+try to connect to 汕头-下载 [10.12.17.43] ...
+SSH connection established!
+taskref name:scp:cdn-fds.jar
+scp put: from= /home/harley/workspaces/java/java/cdn-fds/target/cdn-fds.jar ,to=/usr/share/tomcat/webapps/cdn-fds/WEB-INF/lib/ ... success!
+taskref name:restart-tomcat
+run command: /usr/share/tomcat/bin/restart.pl
+stopping tomcat ...
+starting tomcat ... 
+taskref name:show-fds-version
+run command: /usr/share/jdk1.6.0_14/bin/java -classpath :/usr/share/tomcat/webapps/cdn-fds/WEB-INF/lib/cdn-fds.jar com.vianet.cdn.fds.core.Version
+CDN-FDS version: 2.07
+
+try to connect to 汕头-下载 [10.12.17.38] ...
+SSH connection established!
+taskref name:scp:cdn-fds.jar
+scp put: from= /home/harley/workspaces/java/java/cdn-fds/target/cdn-fds.jar ,to=/usr/share/tomcat/webapps/cdn-fds/WEB-INF/lib/ ... success!
+taskref name:restart-tomcat
+run command: /usr/share/tomcat/bin/restart.pl
+stopping tomcat ...
+starting tomcat ... 
+taskref name:show-fds-version
+run command: /usr/share/jdk1.6.0_14/bin/java -classpath :/usr/share/tomcat/webapps/cdn-fds/WEB-INF/lib/cdn-fds.jar com.vianet.cdn.fds.core.Version
+CDN-FDS version: 2.07
+
+try to connect to 汕头-下载 [10.12.17.58] ...
+SSH connection established!
+taskref name:scp:cdn-fds.jar
+scp put: from= /home/harley/workspaces/java/java/cdn-fds/target/cdn-fds.jar ,to=/usr/share/tomcat/webapps/cdn-fds/WEB-INF/lib/ ... success!
+taskref name:restart-tomcat
+run command: /usr/share/tomcat/bin/restart.pl
+stopping tomcat ...
+starting tomcat ... 
+taskref name:show-fds-version
+run command: /usr/share/jdk1.6.0_14/bin/java -classpath :/usr/share/tomcat/webapps/cdn-fds/WEB-INF/lib/cdn-fds.jar com.vianet.cdn.fds.core.Version
+CDN-FDS version: 2.07
+
+try to connect to 汕头-下载 [10.12.17.57] ...
+SSH connection established!
+taskref name:scp:cdn-fds.jar
+scp put: from= /home/harley/workspaces/java/java/cdn-fds/target/cdn-fds.jar ,to=/usr/share/tomcat/webapps/cdn-fds/WEB-INF/lib/ ... success!
+taskref name:restart-tomcat
+run command: /usr/share/tomcat/bin/restart.pl
+stopping tomcat ...
+starting tomcat ... 
+taskref name:show-fds-version
+run command: /usr/share/jdk1.6.0_14/bin/java -classpath :/usr/share/tomcat/webapps/cdn-fds/WEB-INF/lib/cdn-fds.jar com.vianet.cdn.fds.core.Version
+CDN-FDS version: 2.07
+
+try to connect to 汕头-下载 [10.12.17.56] ...
+SSH connection established!
+taskref name:scp:cdn-fds.jar
+scp put: from= /home/harley/workspaces/java/java/cdn-fds/target/cdn-fds.jar ,to=/usr/share/tomcat/webapps/cdn-fds/WEB-INF/lib/ ... success!
+taskref name:restart-tomcat
+run command: /usr/share/tomcat/bin/restart.pl
+stopping tomcat ...
+starting tomcat ... 
+taskref name:show-fds-version
+run command: /usr/share/jdk1.6.0_14/bin/java -classpath :/usr/share/tomcat/webapps/cdn-fds/WEB-INF/lib/cdn-fds.jar com.vianet.cdn.fds.core.Version
+CDN-FDS version: 2.07
+
+try to connect to 汕头-下载 [10.12.17.53] ...
+SSH connection established!
+taskref name:scp:cdn-fds.jar
+scp put: from= /home/harley/workspaces/java/java/cdn-fds/target/cdn-fds.jar ,to=/usr/share/tomcat/webapps/cdn-fds/WEB-INF/lib/ ... success!
+taskref name:restart-tomcat
+run command: /usr/share/tomcat/bin/restart.pl
+stopping tomcat ...
+starting tomcat ... 
+taskref name:show-fds-version
+run command: /usr/share/jdk1.6.0_14/bin/java -classpath :/usr/share/tomcat/webapps/cdn-fds/WEB-INF/lib/cdn-fds.jar com.vianet.cdn.fds.core.Version
+CDN-FDS version: 2.07
+
+try to connect to 广州-下载 [121.14.58.253] ...
+SSH connection established!
+taskref name:scp:cdn-fds.jar
+scp put: from= /home/harley/workspaces/java/java/cdn-fds/target/cdn-fds.jar ,to=/usr/share/tomcat/webapps/cdn-fds/WEB-INF/lib/ ... success!
+taskref name:restart-tomcat
+run command: /usr/share/tomcat/bin/restart.pl
+stopping tomcat ...
+starting tomcat ... 
+taskref name:show-fds-version
+run command: /usr/share/jdk1.6.0_14/bin/java -classpath :/usr/share/tomcat/webapps/cdn-fds/WEB-INF/lib/cdn-fds.jar com.vianet.cdn.fds.core.Version
+CDN-FDS version: 2.07
+
+try to connect to 广州-下载 [121.14.58.250] ...
+SSH connection established!
+taskref name:scp:cdn-fds.jar
+scp put: from= /home/harley/workspaces/java/java/cdn-fds/target/cdn-fds.jar ,to=/usr/share/tomcat/webapps/cdn-fds/WEB-INF/lib/ ... success!
+taskref name:restart-tomcat
+run command: /usr/share/tomcat/bin/restart.pl
+stopping tomcat ...
+starting tomcat ... 
+taskref name:show-fds-version
+run command: /usr/share/jdk1.6.0_14/bin/java -classpath :/usr/share/tomcat/webapps/cdn-fds/WEB-INF/lib/cdn-fds.jar com.vianet.cdn.fds.core.Version
+CDN-FDS version: 2.07
+
+try to connect to 广州-下载 [121.14.58.245] ...
+SSH connection established!
+taskref name:scp:cdn-fds.jar
+scp put: from= /home/harley/workspaces/java/java/cdn-fds/target/cdn-fds.jar ,to=/usr/share/tomcat/webapps/cdn-fds/WEB-INF/lib/ ... success!
+taskref name:restart-tomcat
+run command: /usr/share/tomcat/bin/restart.pl
+stopping tomcat ...
+starting tomcat ... 
+taskref name:show-fds-version
+run command: /usr/share/jdk1.6.0_14/bin/java -classpath :/usr/share/tomcat/webapps/cdn-fds/WEB-INF/lib/cdn-fds.jar com.vianet.cdn.fds.core.Version
+CDN-FDS version: 2.07
+
+try to connect to 广州-下载 [121.14.58.254] ...
+SSH connection established!
+taskref name:scp:cdn-fds.jar
+scp put: from= /home/harley/workspaces/java/java/cdn-fds/target/cdn-fds.jar ,to=/usr/share/tomcat/webapps/cdn-fds/WEB-INF/lib/ ... success!
+taskref name:restart-tomcat
+run command: /usr/share/tomcat/bin/restart.pl
+stopping tomcat ...
+starting tomcat ... 
+taskref name:show-fds-version
+run command: /usr/share/jdk1.6.0_14/bin/java -classpath :/usr/share/tomcat/webapps/cdn-fds/WEB-INF/lib/cdn-fds.jar com.vianet.cdn.fds.core.Version
+CDN-FDS version: 2.07
+
+try to connect to 沈阳-下载 [10.13.14.107] ...
+SSH connection established!
+taskref name:scp:cdn-fds.jar
+scp put: from= /home/harley/workspaces/java/java/cdn-fds/target/cdn-fds.jar ,to=/usr/share/tomcat/webapps/cdn-fds/WEB-INF/lib/ ... success!
+taskref name:restart-tomcat
+run command: /usr/share/tomcat/bin/restart.pl
+stopping tomcat ...
+starting tomcat ... 
+taskref name:show-fds-version
+run command: /usr/share/jdk1.6.0_14/bin/java -classpath :/usr/share/tomcat/webapps/cdn-fds/WEB-INF/lib/cdn-fds.jar com.vianet.cdn.fds.core.Version
+CDN-FDS version: 2.07
+
+try to connect to 沈阳-下载 [10.13.14.106] ...
+SSH connection established!
+taskref name:scp:cdn-fds.jar
+scp put: from= /home/harley/workspaces/java/java/cdn-fds/target/cdn-fds.jar ,to=/usr/share/tomcat/webapps/cdn-fds/WEB-INF/lib/ ... success!
+taskref name:restart-tomcat
+run command: /usr/share/tomcat/bin/restart.pl
+stopping tomcat ...
+starting tomcat ... 
+taskref name:show-fds-version
+run command: /usr/share/jdk1.6.0_14/bin/java -classpath :/usr/share/tomcat/webapps/cdn-fds/WEB-INF/lib/cdn-fds.jar com.vianet.cdn.fds.core.Version
+CDN-FDS version: 2.07
+
+try to connect to 沈阳-下载 [10.13.14.105] ...
+SSH connection established!
+taskref name:scp:cdn-fds.jar
+scp put: from= /home/harley/workspaces/java/java/cdn-fds/target/cdn-fds.jar ,to=/usr/share/tomcat/webapps/cdn-fds/WEB-INF/lib/ ... success!
+taskref name:restart-tomcat
+run command: /usr/share/tomcat/bin/restart.pl
+stopping tomcat ...
+starting tomcat ... 
+taskref name:show-fds-version
+run command: /usr/share/jdk1.6.0_14/bin/java -classpath :/usr/share/tomcat/webapps/cdn-fds/WEB-INF/lib/cdn-fds.jar com.vianet.cdn.fds.core.Version
+CDN-FDS version: 2.07
+
+try to connect to 沈阳-下载 [10.13.14.104] ...
+SSH connection established!
+taskref name:scp:cdn-fds.jar
+scp put: from= /home/harley/workspaces/java/java/cdn-fds/target/cdn-fds.jar ,to=/usr/share/tomcat/webapps/cdn-fds/WEB-INF/lib/ ... success!
+taskref name:restart-tomcat
+run command: /usr/share/tomcat/bin/restart.pl
+stopping tomcat ...
+starting tomcat ... 
+taskref name:show-fds-version
+run command: /usr/share/jdk1.6.0_14/bin/java -classpath :/usr/share/tomcat/webapps/cdn-fds/WEB-INF/lib/cdn-fds.jar com.vianet.cdn.fds.core.Version
+CDN-FDS version: 2.07
+
+try to connect to 湛江-下载 [10.12.15.34] ...
+SSH connection established!
+taskref name:scp:cdn-fds.jar
+scp put: from= /home/harley/workspaces/java/java/cdn-fds/target/cdn-fds.jar ,to=/usr/share/tomcat/webapps/cdn-fds/WEB-INF/lib/ ... success!
+taskref name:restart-tomcat
+run command: /usr/share/tomcat/bin/restart.pl
+stopping tomcat ...
+starting tomcat ... 
+taskref name:show-fds-version
+run command: /usr/share/jdk1.6.0_14/bin/java -classpath :/usr/share/tomcat/webapps/cdn-fds/WEB-INF/lib/cdn-fds.jar com.vianet.cdn.fds.core.Version
+CDN-FDS version: 2.07
+
+try to connect to 湛江-下载 [10.12.15.47] ...
+SSH connection established!
+taskref name:scp:cdn-fds.jar
+scp put: from= /home/harley/workspaces/java/java/cdn-fds/target/cdn-fds.jar ,to=/usr/share/tomcat/webapps/cdn-fds/WEB-INF/lib/ ... success!
+taskref name:restart-tomcat
+run command: /usr/share/tomcat/bin/restart.pl
+stopping tomcat ...
+starting tomcat ... 
+taskref name:show-fds-version
+run command: /usr/share/jdk1.6.0_14/bin/java -classpath :/usr/share/tomcat/webapps/cdn-fds/WEB-INF/lib/cdn-fds.jar com.vianet.cdn.fds.core.Version
+CDN-FDS version: 2.07
+
+try to connect to 湛江-下载 [10.12.15.43] ...
+SSH connection established!
+taskref name:scp:cdn-fds.jar
+scp put: from= /home/harley/workspaces/java/java/cdn-fds/target/cdn-fds.jar ,to=/usr/share/tomcat/webapps/cdn-fds/WEB-INF/lib/ ... success!
+taskref name:restart-tomcat
+run command: /usr/share/tomcat/bin/restart.pl
+stopping tomcat ...
+starting tomcat ... 
+taskref name:show-fds-version
+run command: /usr/share/jdk1.6.0_14/bin/java -classpath :/usr/share/tomcat/webapps/cdn-fds/WEB-INF/lib/cdn-fds.jar com.vianet.cdn.fds.core.Version
+CDN-FDS version: 2.07
+
+try to connect to 湛江-下载 [10.12.15.38] ...
+SSH connection established!
+taskref name:scp:cdn-fds.jar
+scp put: from= /home/harley/workspaces/java/java/cdn-fds/target/cdn-fds.jar ,to=/usr/share/tomcat/webapps/cdn-fds/WEB-INF/lib/ ... success!
+taskref name:restart-tomcat
+run command: /usr/share/tomcat/bin/restart.pl
+stopping tomcat ...
+starting tomcat ... 
+taskref name:show-fds-version
+run command: /usr/share/jdk1.6.0_14/bin/java -classpath :/usr/share/tomcat/webapps/cdn-fds/WEB-INF/lib/cdn-fds.jar com.vianet.cdn.fds.core.Version
+CDN-FDS version: 2.07
+
+try to connect to 湛江-下载 [10.12.15.58] ...
+SSH connection established!
+taskref name:scp:cdn-fds.jar
+scp put: from= /home/harley/workspaces/java/java/cdn-fds/target/cdn-fds.jar ,to=/usr/share/tomcat/webapps/cdn-fds/WEB-INF/lib/ ... success!
+taskref name:restart-tomcat
+run command: /usr/share/tomcat/bin/restart.pl
+stopping tomcat ...
+starting tomcat ... 
+taskref name:show-fds-version
+run command: /usr/share/jdk1.6.0_14/bin/java -classpath :/usr/share/tomcat/webapps/cdn-fds/WEB-INF/lib/cdn-fds.jar com.vianet.cdn.fds.core.Version
+CDN-FDS version: 2.07
+
+try to connect to 湛江-下载 [10.12.15.53] ...
+SSH connection established!
+taskref name:scp:cdn-fds.jar
+scp put: from= /home/harley/workspaces/java/java/cdn-fds/target/cdn-fds.jar ,to=/usr/share/tomcat/webapps/cdn-fds/WEB-INF/lib/ ... success!
+taskref name:restart-tomcat
+run command: /usr/share/tomcat/bin/restart.pl
+stopping tomcat ...
+starting tomcat ... 
+taskref name:show-fds-version
+run command: /usr/share/jdk1.6.0_14/bin/java -classpath :/usr/share/tomcat/webapps/cdn-fds/WEB-INF/lib/cdn-fds.jar com.vianet.cdn.fds.core.Version
+CDN-FDS version: 2.07
+
+try to connect to 湛江-下载 [10.12.15.52] ...
+SSH connection established!
+taskref name:scp:cdn-fds.jar
+scp put: from= /home/harley/workspaces/java/java/cdn-fds/target/cdn-fds.jar ,to=/usr/share/tomcat/webapps/cdn-fds/WEB-INF/lib/ ... success!
+taskref name:restart-tomcat
+run command: /usr/share/tomcat/bin/restart.pl
+stopping tomcat ...
+starting tomcat ... 
+taskref name:show-fds-version
+run command: /usr/share/jdk1.6.0_14/bin/java -classpath :/usr/share/tomcat/webapps/cdn-fds/WEB-INF/lib/cdn-fds.jar com.vianet.cdn.fds.core.Version
+CDN-FDS version: 2.07
+
+try to connect to 湛江-下载 [10.12.15.48] ...
+SSH connection established!
+taskref name:scp:cdn-fds.jar
+scp put: from= /home/harley/workspaces/java/java/cdn-fds/target/cdn-fds.jar ,to=/usr/share/tomcat/webapps/cdn-fds/WEB-INF/lib/ ... success!
+taskref name:restart-tomcat
+run command: /usr/share/tomcat/bin/restart.pl
+stopping tomcat ...
+starting tomcat ... 
+taskref name:show-fds-version
+run command: /usr/share/jdk1.6.0_14/bin/java -classpath :/usr/share/tomcat/webapps/cdn-fds/WEB-INF/lib/cdn-fds.jar com.vianet.cdn.fds.core.Version
+CDN-FDS version: 2.07
+
+try to connect to 金华-下载 [10.12.14.43] ...
+SSH connection established!
+taskref name:scp:cdn-fds.jar
+scp put: from= /home/harley/workspaces/java/java/cdn-fds/target/cdn-fds.jar ,to=/usr/share/tomcat/webapps/cdn-fds/WEB-INF/lib/ ... success!
+taskref name:restart-tomcat
+run command: /usr/share/tomcat/bin/restart.pl
+stopping tomcat ...
+starting tomcat ... 
+taskref name:show-fds-version
+run command: /usr/share/jdk1.6.0_14/bin/java -classpath :/usr/share/tomcat/webapps/cdn-fds/WEB-INF/lib/cdn-fds.jar com.vianet.cdn.fds.core.Version
+CDN-FDS version: 2.07
+
+try to connect to 金华-下载 [10.12.14.40] ...
+SSH connection established!
+taskref name:scp:cdn-fds.jar
+scp put: from= /home/harley/workspaces/java/java/cdn-fds/target/cdn-fds.jar ,to=/usr/share/tomcat/webapps/cdn-fds/WEB-INF/lib/ ... success!
+taskref name:restart-tomcat
+run command: /usr/share/tomcat/bin/restart.pl
+stopping tomcat ...
+starting tomcat ... 
+taskref name:show-fds-version
+run command: /usr/share/jdk1.6.0_14/bin/java -classpath :/usr/share/tomcat/webapps/cdn-fds/WEB-INF/lib/cdn-fds.jar com.vianet.cdn.fds.core.Version
+CDN-FDS version: 2.07
+
+try to connect to 金华-下载 [10.12.14.38] ...
+SSH connection established!
+taskref name:scp:cdn-fds.jar
+scp put: from= /home/harley/workspaces/java/java/cdn-fds/target/cdn-fds.jar ,to=/usr/share/tomcat/webapps/cdn-fds/WEB-INF/lib/ ... success!
+taskref name:restart-tomcat
+run command: /usr/share/tomcat/bin/restart.pl
+stopping tomcat ...
+starting tomcat ... 
+taskref name:show-fds-version
+run command: /usr/share/jdk1.6.0_14/bin/java -classpath :/usr/share/tomcat/webapps/cdn-fds/WEB-INF/lib/cdn-fds.jar com.vianet.cdn.fds.core.Version
+CDN-FDS version: 2.07
+
+try to connect to 金华-下载 [10.12.14.34] ...
+SSH connection established!
+taskref name:scp:cdn-fds.jar
+scp put: from= /home/harley/workspaces/java/java/cdn-fds/target/cdn-fds.jar ,to=/usr/share/tomcat/webapps/cdn-fds/WEB-INF/lib/ ... success!
+taskref name:restart-tomcat
+run command: /usr/share/tomcat/bin/restart.pl
+stopping tomcat ...
+starting tomcat ... 
+taskref name:show-fds-version
+run command: /usr/share/jdk1.6.0_14/bin/java -classpath :/usr/share/tomcat/webapps/cdn-fds/WEB-INF/lib/cdn-fds.jar com.vianet.cdn.fds.core.Version
+CDN-FDS version: 2.07
+
+try to connect to 金华-下载 [10.12.14.47] ...
+SSH connection established!
+taskref name:scp:cdn-fds.jar
+scp put: from= /home/harley/workspaces/java/java/cdn-fds/target/cdn-fds.jar ,to=/usr/share/tomcat/webapps/cdn-fds/WEB-INF/lib/ ... success!
+taskref name:restart-tomcat
+run command: /usr/share/tomcat/bin/restart.pl
+stopping tomcat ...
+starting tomcat ... 
+taskref name:show-fds-version
+run command: /usr/share/jdk1.6.0_14/bin/java -classpath :/usr/share/tomcat/webapps/cdn-fds/WEB-INF/lib/cdn-fds.jar com.vianet.cdn.fds.core.Version
+CDN-FDS version: 2.07
+
+try to connect to 金华-下载 [10.12.14.48] ...
+SSH connection established!
+taskref name:scp:cdn-fds.jar
+scp put: from= /home/harley/workspaces/java/java/cdn-fds/target/cdn-fds.jar ,to=/usr/share/tomcat/webapps/cdn-fds/WEB-INF/lib/ ... success!
+taskref name:restart-tomcat
+run command: /usr/share/tomcat/bin/restart.pl
+stopping tomcat ...
+starting tomcat ... 
+taskref name:show-fds-version
+run command: /usr/share/jdk1.6.0_14/bin/java -classpath :/usr/share/tomcat/webapps/cdn-fds/WEB-INF/lib/cdn-fds.jar com.vianet.cdn.fds.core.Version
+CDN-FDS version: 2.07
+
+try to connect to 金华-下载 [10.12.14.49] ...
+SSH connection established!
+taskref name:scp:cdn-fds.jar
+scp put: from= /home/harley/workspaces/java/java/cdn-fds/target/cdn-fds.jar ,to=/usr/share/tomcat/webapps/cdn-fds/WEB-INF/lib/ ... success!
+taskref name:restart-tomcat
+run command: /usr/share/tomcat/bin/restart.pl
+stopping tomcat ...
+starting tomcat ... 
+taskref name:show-fds-version
+run command: /usr/share/jdk1.6.0_14/bin/java -classpath :/usr/share/tomcat/webapps/cdn-fds/WEB-INF/lib/cdn-fds.jar com.vianet.cdn.fds.core.Version
+CDN-FDS version: 2.07
+
+try to connect to 金华-下载 [10.12.14.50] ...
+SSH connection established!
+taskref name:scp:cdn-fds.jar
+scp put: from= /home/harley/workspaces/java/java/cdn-fds/target/cdn-fds.jar ,to=/usr/share/tomcat/webapps/cdn-fds/WEB-INF/lib/ ... success!
+taskref name:restart-tomcat
+run command: /usr/share/tomcat/bin/restart.pl
+stopping tomcat ...
+starting tomcat ... 
+taskref name:show-fds-version
+run command: /usr/share/jdk1.6.0_14/bin/java -classpath :/usr/share/tomcat/webapps/cdn-fds/WEB-INF/lib/cdn-fds.jar com.vianet.cdn.fds.core.Version
+CDN-FDS version: 2.07
